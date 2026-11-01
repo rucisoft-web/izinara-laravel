@@ -97,8 +97,8 @@
 @push('scripts')
 <script>
 IZ.chart('cGroup', {type: 'bar', data: {labels: @json($byGroup->pluck('label')->values()), datasets: [
-  {label: 'Aktif', data: @json($byGroup->pluck('open')->values()), backgroundColor: '#0f6b5c'},
-  {label: 'Selesai', data: @json($byGroup->pluck('done')->values()), backgroundColor: '#9bd0b1'}]},
+  {label: 'Aktif', data: @json($byGroup->pluck('open')->values()), backgroundColor: '#0f2c59'},
+  {label: 'Selesai', data: @json($byGroup->pluck('done')->values()), backgroundColor: '#9fb4d6'}]},
   options: {scales: {x: {stacked: true}, y: {stacked: true, ticks: {precision: 0}}}}});
 IZ.chart('cParty', {type: 'bar', data: {labels: @json($byParty->pluck('label')), datasets: [
   {label: 'Terbuka', data: @json($byParty->pluck('open')), backgroundColor: '#2563a8'},

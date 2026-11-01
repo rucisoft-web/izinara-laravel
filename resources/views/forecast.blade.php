@@ -47,7 +47,7 @@
 @endsection
 @push('scripts')<script>
 IZ.chart('cMonth', {type: 'bar', data: {labels: @json($monthly['labels']), datasets: [
-  {label: 'Izin terbit (proyeksi)', data: @json($monthly['issued']), backgroundColor: '#0f6b5c'},
+  {label: 'Izin terbit (proyeksi)', data: @json($monthly['issued']), backgroundColor: '#0f2c59'},
   {label: 'Izin habis masa berlaku', data: @json($monthly['expiring']), backgroundColor: '#c0392b'},
   {label: 'Mulai perpanjangan', data: @json($monthly['renewalStarts']), backgroundColor: '#d98e04'},
   {label: 'Proyek baru dimulai', data: @json($monthly['newProjects']), type: 'line', borderColor: '#2563a8', backgroundColor: '#2563a8'}]},

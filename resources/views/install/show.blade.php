@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="id">
 <head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Instalasi · Izinara</title>
-<link rel="icon" href="{{ asset('favicon.png') }}"><link rel="stylesheet" href="{{ asset('css/izinara.css') }}?v=2"></head>
+<link rel="icon" href="{{ asset('favicon.png') }}"><link rel="stylesheet" href="{{ asset('css/izinara.css') }}?v=3"></head>
 <body>
 <div class="login-wrap">
   <form class="login install" method="post" action="{{ url('/install') }}">

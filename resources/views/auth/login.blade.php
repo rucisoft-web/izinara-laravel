@@ -1,12 +1,13 @@
 <!doctype html>
 <html lang="id">
 <head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Masuk · Izinara</title>
-<link rel="icon" href="{{ asset('favicon.png') }}"><link rel="stylesheet" href="{{ asset('css/izinara.css') }}?v=2"></head>
+<link rel="icon" href="{{ asset('favicon.png') }}"><link rel="stylesheet" href="{{ asset('css/izinara.css') }}?v=3"></head>
 <body>
 <div class="login-wrap">
   <form class="login" method="post" action="{{ url('/login') }}">
     @csrf
     <div class="brand"><img src="{{ asset('img/izinara.png') }}" alt=""><div><b>Izinara</b><small class="muted">Manajemen proyek perizinan impor pangan</small></div></div>
+    <div class="org">PT INDOGUNA UTAMA</div>
     @if(session('ok'))<div class="alert ok">{{ session('ok') }}</div>@endif
     @if($errors->any())<div class="alert bad">{{ $errors->first() }}</div>@endif
     <div class="field"><label>Nama pengguna atau email</label><input type="text" name="login" value="{{ old('login') }}" required autofocus></div>

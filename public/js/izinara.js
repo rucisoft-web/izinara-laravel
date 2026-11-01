@@ -104,11 +104,11 @@
     const el = document.getElementById(id);
     if (!el || !window.Chart) return;
     Chart.defaults.font.family = '"Inter","Segoe UI",system-ui,sans-serif';
-    Chart.defaults.color = '#64736e';
+    Chart.defaults.color = '#5e6b80';
     cfg.options = Object.assign({responsive: true, maintainAspectRatio: false, plugins: {legend: {position: 'bottom', labels: {boxWidth: 12}}}}, cfg.options || {});
     return new Chart(el, cfg);
   };
-  IZ.colors = ['#0f6b5c', '#d98e04', '#2563a8', '#c0392b', '#7b5cc7', '#1f8a4c', '#8a6d3b', '#4e6e7a'];
+  IZ.colors = ['#0f2c59', '#c8102e', '#3d7cc9', '#d98e04', '#7b5cc7', '#1f8a4c', '#8a6d3b', '#4e6e7a'];
 
   /* ---------- konfirmasi ---------- */
   document.addEventListener('submit', e => {

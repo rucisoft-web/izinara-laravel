@@ -7,7 +7,7 @@
 <meta name="description" content="Izinara: aplikasi internal PT Indoguna Utama untuk pengurusan izin impor dan izin edar pangan.">
 <meta name="robots" content="noindex">
 <link rel="icon" href="{{ asset('favicon.png') }}">
-<link rel="stylesheet" href="{{ asset('css/izinara.css') }}?v=2">
+<link rel="stylesheet" href="{{ asset('css/izinara.css') }}?v=3">
 </head>
 <body class="pub">
 <header class="pub-top">

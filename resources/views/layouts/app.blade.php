@@ -7,7 +7,7 @@
 <title>@yield('title', 'Izinara') · Izinara</title>
 <link rel="icon" href="{{ asset('favicon.png') }}">
 <link rel="stylesheet" href="{{ asset('vendor/frappe-gantt.min.css') }}">
-<link rel="stylesheet" href="{{ asset('css/izinara.css') }}?v=2">
+<link rel="stylesheet" href="{{ asset('css/izinara.css') }}?v=3">
 @stack('head')
 </head>
 <body>
@@ -65,7 +65,7 @@
 <script>window.IZ={csrf:document.querySelector('meta[name=csrf-token]').content,mentionUrl:null,people:{!! json_encode($izPeople) !!}};</script>
 <script src="{{ asset('vendor/chart.umd.js') }}"></script>
 <script src="{{ asset('vendor/frappe-gantt.min.js') }}"></script>
-<script src="{{ asset('js/izinara.js') }}?v=2"></script>
+<script src="{{ asset('js/izinara.js') }}?v=3"></script>
 @stack('scripts')
 </body>
 </html>

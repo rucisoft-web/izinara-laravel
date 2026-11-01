@@ -101,7 +101,7 @@
     <button class="btn sm" data-gantt-mode="Week">Minggu</button>
     <button class="btn sm ghost" data-gantt-mode="Month">Bulan</button>
     <div class="sp" style="flex:1"></div>
-    <div class="legend"><span><i style="background:#41545e"></i>Paket izin</span><span><i style="background:var(--brand)"></i>Kegiatan</span><span><i style="background:#f0b3ab"></i>Jalur kritis</span><span><i style="background:#9bd0b1"></i>Selesai</span><span><i style="background:var(--accent)"></i>Milestone</span><span><i style="border:2px dashed #e5a50a;background:#fff"></i>Lewat jadwal</span></div>
+    <div class="legend"><span><i style="background:#4a5a78"></i>Paket izin</span><span><i style="background:var(--brand)"></i>Kegiatan</span><span><i style="background:#f0b3ab"></i>Jalur kritis</span><span><i style="background:#6f88b3"></i>Selesai</span><span><i style="background:var(--accent)"></i>Milestone</span><span><i style="border:2px dashed #e5a50a;background:#fff"></i>Lewat jadwal</span></div>
   </div>
   <div class="gantt-wrap"><div id="gantt"></div></div>
   <p class="help">Klik batang untuk membuka kegiatan. {{ $isMgr ? 'Seret batang untuk menggeser jadwal; kegiatan sesudahnya ikut bergeser mengikuti dependensi.' : 'Hanya manajer yang dapat menggeser jadwal.' }} Garis panah = dependensi (selesai → mulai).</p>
