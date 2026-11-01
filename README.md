@@ -15,7 +15,7 @@ Dibangun dengan **Laravel 12 + MySQL**, tanpa build step front-end, sehingga bis
 - **Beban kerja PIC** per minggu vs kapasitas, **proyeksi** P50/P80 berbasis histori, izin terbit/habis per bulan, skenario.
 - **Register izin** dengan pemicu proyek perpanjangan.
 - **Sertifikasi halal**: proyek registrasi SHLN dan sertifikasi halal BPJPH.
-- **Landing page** untuk calon pengguna, **tombol Bantuan** di setiap layar dan **Panduan** lengkap dengan tangkapan layar.
+- **Halaman informasi** (landing page) untuk pengguna internal, **tombol Bantuan** di setiap layar dan **Panduan** lengkap dengan tangkapan layar.
 - **Data demo PT Indoguna Utama**: 18 proyek (3 per kelompok izin), lampiran contoh, diskusi, memo, register izin.
 
 ## Instalasi

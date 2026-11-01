@@ -41,7 +41,7 @@ File `.htaccess` di akar paket meneruskan semua permintaan ke folder `public/` d
 2. Pastikan semua pemeriksaan server bertanda ✓.
 3. Isi host database (`localhost`), nama database, pengguna, dan kata sandi dari Langkah 1.
 4. Isi email dan kata sandi **admin** (minimal 8 karakter).
-5. Centang **Muat data demo Indoguna** bila ingin presentasi ke calon pengguna (bisa dikosongkan untuk instalasi produksi).
+5. Centang **Muat data demo Indoguna** bila ingin data latihan untuk pengenalan aplikasi ke pengguna (bisa dikosongkan untuk instalasi produksi).
 6. Klik **Pasang Izinara** dan tunggu 1–2 menit.
 
 Wizard akan: membuat `.env` dan `APP_KEY`, membuat semua tabel, mengisi data master (bagian, peraturan, jenis izin & langkah, kelompok izin, template), membuat akun `admin`, dan (opsional) memuat data demo. Setelah selesai, `/install` otomatis ditutup.
@@ -51,7 +51,7 @@ Wizard akan: membuat `.env` dan `APP_KEY`, membuat semua tabel, mengisi data mas
 * Admin: pengguna `admin`, kata sandi yang Anda buat.
 * Akun demo (bila dimuat), kata sandi `izinara`: `sari.manajer` (manajer), `dewi.izin` & `fajar.izin` (perizinan), `rina.ml` & `maya.ml` (BPOM), `hasan.halal` & `nur.halal` (halal), `budi.purchasing`, `andi.impor`, `tono.direksi` (viewer).
 
-**Untuk produksi:** setelah presentasi, ganti kata sandi akun demo atau nonaktifkan di menu *Pengguna & bagian*, atau pasang ulang tanpa data demo.
+**Untuk produksi:** setelah masa latihan, ganti kata sandi akun demo atau nonaktifkan di menu *Pengguna & bagian*, atau pasang ulang tanpa data demo.
 
 ## Pengaturan tambahan
 
