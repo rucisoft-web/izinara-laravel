@@ -1,0 +1,32 @@
+[
+ {
+  "code": "pangan",
+  "name": "Bagian Makanan Luar (Izin Edar ML BPOM)",
+  "sequence": 10,
+  "responsibility": "Registrasi izin edar ML pangan olahan di BPOM, rancangan label Bahasa Indonesia, SKI BPOM per pengapalan, registrasi PSAT."
+ },
+ {
+  "code": "halal",
+  "name": "Bagian Sertifikasi Halal",
+  "sequence": 20,
+  "responsibility": "Registrasi Sertifikat Halal Luar Negeri (SHLN) di BPJPH, sertifikasi halal produk yang dikemas ulang, Sistem Jaminan Produk Halal, keterangan tidak halal dan pemisahan produk babi."
+ },
+ {
+  "code": "perizinan",
+  "name": "Bagian Perizinan (Kementan, KKP, Barantin)",
+  "sequence": 30,
+  "responsibility": "NIB/API dan NKV, persetujuan unit usaha asal, Rekomendasi Pemasukan Kementan (daging, unggas, olahan), rekomendasi KKP (ikan), RIPH, karantina hewan/ikan/tumbuhan."
+ },
+ {
+  "code": "purchasing",
+  "name": "Purchasing (Procurement)",
+  "sequence": 40,
+  "responsibility": "Satu-satunya bagian yang berhubungan dengan prinsipal/eksportir luar negeri: rencana impor, PO, permintaan dokumen (LoA, health certificate, CoA, sertifikat halal, data establishment, SKA, dokumen pengapalan asli) dan data tambahan yang diminta instansi. Juga verifikasi pemasok lokal."
+ },
+ {
+  "code": "impor",
+  "name": "Bagian Impor & Kepabeanan",
+  "sequence": 50,
+  "responsibility": "Cek lartas HS di INSW, Persetujuan Impor (PI) Kemendag, PIB/BC 2.0, pembayaran BM & PDRI, jalur pemeriksaan, SPPB dan pengeluaran kontainer."
+ }
+]

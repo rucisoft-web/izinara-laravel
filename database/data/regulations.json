@@ -1,0 +1,322 @@
+[
+ {
+  "code": "UU_PANGAN",
+  "name": "UU 18/2012",
+  "title": "Pangan",
+  "issuer": "DPR & Presiden",
+  "year": "2012",
+  "note": "",
+  "status": "berlaku",
+  "url": "https://peraturan.bpk.go.id/Search?keywords=UU%2018/2012"
+ },
+ {
+  "code": "UU_JPH",
+  "name": "UU 33/2014",
+  "title": "Jaminan Produk Halal",
+  "issuer": "DPR & Presiden",
+  "year": "2014",
+  "note": "Diubah oleh UU 6/2023",
+  "status": "berlaku_diubah",
+  "url": "https://peraturan.bpk.go.id/Search?keywords=UU%2033/2014"
+ },
+ {
+  "code": "UU_CIPTAKER",
+  "name": "UU 6/2023",
+  "title": "Penetapan Perppu 2/2022 tentang Cipta Kerja menjadi Undang-Undang",
+  "issuer": "DPR & Presiden",
+  "year": "2023",
+  "note": "",
+  "status": "berlaku",
+  "url": "https://peraturan.bpk.go.id/Search?keywords=UU%206/2023"
+ },
+ {
+  "code": "UU_PKH",
+  "name": "UU 18/2009 jo. UU 41/2014",
+  "title": "Peternakan dan Kesehatan Hewan",
+  "issuer": "DPR & Presiden",
+  "year": "2014",
+  "note": "",
+  "status": "berlaku_diubah",
+  "url": "https://peraturan.bpk.go.id/Search?keywords=UU%2018/2009"
+ },
+ {
+  "code": "UU_PERIKANAN",
+  "name": "UU 31/2004 jo. UU 45/2009",
+  "title": "Perikanan",
+  "issuer": "DPR & Presiden",
+  "year": "2009",
+  "note": "",
+  "status": "berlaku_diubah",
+  "url": "https://peraturan.bpk.go.id/Search?keywords=UU%2031/2004"
+ },
+ {
+  "code": "UU_HORTI",
+  "name": "UU 13/2010",
+  "title": "Hortikultura",
+  "issuer": "DPR & Presiden",
+  "year": "2010",
+  "note": "",
+  "status": "berlaku",
+  "url": "https://peraturan.bpk.go.id/Search?keywords=UU%2013/2010"
+ },
+ {
+  "code": "UU_KARANTINA",
+  "name": "UU 21/2019",
+  "title": "Karantina Hewan, Ikan, dan Tumbuhan",
+  "issuer": "DPR & Presiden",
+  "year": "2019",
+  "note": "",
+  "status": "berlaku",
+  "url": "https://peraturan.bpk.go.id/Search?keywords=UU%2021/2019"
+ },
+ {
+  "code": "UU_PABEAN",
+  "name": "UU 10/1995 jo. UU 17/2006",
+  "title": "Kepabeanan",
+  "issuer": "DPR & Presiden",
+  "year": "2006",
+  "note": "",
+  "status": "berlaku_diubah",
+  "url": "https://peraturan.bpk.go.id/Search?keywords=UU%2010/1995"
+ },
+ {
+  "code": "PP_86_2019",
+  "name": "PP 86/2019",
+  "title": "Keamanan Pangan",
+  "issuer": "Presiden",
+  "year": "2019",
+  "note": "",
+  "status": "berlaku",
+  "url": "https://peraturan.bpk.go.id/Search?keywords=PP%2086/2019"
+ },
+ {
+  "code": "PP_95_2012",
+  "name": "PP 95/2012",
+  "title": "Kesehatan Masyarakat Veteriner dan Kesejahteraan Hewan",
+  "issuer": "Presiden",
+  "year": "2012",
+  "note": "",
+  "status": "berlaku",
+  "url": "https://peraturan.bpk.go.id/Search?keywords=PP%2095/2012"
+ },
+ {
+  "code": "PP_42_2024",
+  "name": "PP 42/2024",
+  "title": "Penyelenggaraan Bidang Jaminan Produk Halal",
+  "issuer": "Presiden",
+  "year": "2024",
+  "note": "Produk luar negeri wajib bersertifikat halal paling lambat 17 Oktober 2026",
+  "status": "berlaku",
+  "url": "https://peraturan.bpk.go.id/Search?keywords=PP%2042/2024"
+ },
+ {
+  "code": "PP_29_2023",
+  "name": "PP 29/2023",
+  "title": "Peraturan Pelaksanaan UU 21/2019 tentang Karantina Hewan, Ikan, dan Tumbuhan",
+  "issuer": "Presiden",
+  "year": "2023",
+  "note": "",
+  "status": "berlaku",
+  "url": "https://peraturan.bpk.go.id/Search?keywords=PP%2029/2023"
+ },
+ {
+  "code": "PP_28_2025",
+  "name": "PP 28/2025",
+  "title": "Penyelenggaraan Perizinan Berusaha Berbasis Risiko",
+  "issuer": "Presiden",
+  "year": "2025",
+  "note": "",
+  "status": "berlaku",
+  "url": "https://peraturan.bpk.go.id/Search?keywords=PP%2028/2025"
+ },
+ {
+  "code": "PERPRES_32_2022",
+  "name": "Perpres 32/2022",
+  "title": "Neraca Komoditas",
+  "issuer": "Presiden",
+  "year": "2022",
+  "note": "Cek perubahan terbaru",
+  "status": "perlu_konfirmasi",
+  "url": "https://peraturan.bpk.go.id/Search?keywords=Perpres%2032/2022"
+ },
+ {
+  "code": "PERPRES_45_2023",
+  "name": "Perpres 45/2023",
+  "title": "Badan Karantina Indonesia",
+  "issuer": "Presiden",
+  "year": "2023",
+  "note": "",
+  "status": "berlaku",
+  "url": "https://peraturan.bpk.go.id/Search?keywords=Perpres%2045/2023"
+ },
+ {
+  "code": "PERMENDAG_16_2025",
+  "name": "Permendag 16/2025",
+  "title": "Kebijakan dan Pengaturan Impor",
+  "issuer": "Kementerian Perdagangan",
+  "year": "2025",
+  "note": "",
+  "status": "berlaku",
+  "url": "https://peraturan.bpk.go.id/Search?keywords=Permendag%2016/2025"
+ },
+ {
+  "code": "PERMENDAG_18_2025",
+  "name": "Permendag 18/2025",
+  "title": "Kebijakan dan Pengaturan Impor Barang Pertanian dan Peternakan",
+  "issuer": "Kementerian Perdagangan",
+  "year": "2025",
+  "note": "Sudah diubah; cek perubahan terbaru",
+  "status": "perlu_konfirmasi",
+  "url": "https://peraturan.bpk.go.id/Search?keywords=Permendag%2018/2025"
+ },
+ {
+  "code": "PERMENDAG_19_2025",
+  "name": "Permendag 19/2025",
+  "title": "Kebijakan dan Pengaturan Impor Garam dan Komoditas Perikanan",
+  "issuer": "Kementerian Perdagangan",
+  "year": "2025",
+  "note": "",
+  "status": "berlaku",
+  "url": "https://peraturan.bpk.go.id/Search?keywords=Permendag%2019/2025"
+ },
+ {
+  "code": "PERMENTAN_42_2019",
+  "name": "Permentan 42/2019",
+  "title": "Pemasukan Karkas, Daging, Jeroan, dan/atau Olahannya ke dalam Wilayah Negara Republik Indonesia",
+  "issuer": "Kementerian Pertanian",
+  "year": "2019",
+  "note": "Cek perubahan terbaru",
+  "status": "perlu_konfirmasi",
+  "url": "https://peraturan.bpk.go.id/Search?keywords=Permentan%2042/2019"
+ },
+ {
+  "code": "PERMENTAN_19_2025",
+  "name": "Permentan 19/2025",
+  "title": "Persyaratan Pemasukan Produk Hewan dalam Hal Tertentu yang Berasal dari Negara atau Zona dalam Suatu Negara Asal Pemasukan",
+  "issuer": "Kementerian Pertanian",
+  "year": "2025",
+  "note": "",
+  "status": "berlaku",
+  "url": "https://peraturan.bpk.go.id/Search?keywords=Permentan%2019/2025"
+ },
+ {
+  "code": "PERMENTAN_NKV",
+  "name": "Permentan 11/2020",
+  "title": "Sertifikasi Nomor Kontrol Veteriner Unit Usaha Produk Hewan",
+  "issuer": "Kementerian Pertanian",
+  "year": "2020",
+  "note": "Cek versi terbaru",
+  "status": "perlu_konfirmasi",
+  "url": "https://peraturan.bpk.go.id/Search?keywords=Permentan%2011/2020"
+ },
+ {
+  "code": "PERMENTAN_RIPH",
+  "name": "Permentan 39/2019 jo. Permentan 2/2020",
+  "title": "Rekomendasi Impor Produk Hortikultura",
+  "issuer": "Kementerian Pertanian",
+  "year": "2019",
+  "note": "Diubah dengan Permentan 2/2020; pengawasan RIPH diatur Permentan 5/2022.",
+  "status": "berlaku_diubah",
+  "url": "https://peraturan.bpk.go.id/Search?keywords=Permentan%2039/2019"
+ },
+ {
+  "code": "PERMENKP_IMPOR",
+  "name": "Permen KP 58/2018",
+  "title": "Rekomendasi Pemasukan Komoditas Perikanan Selain Ikan Hidup",
+  "issuer": "Kementerian Kelautan dan Perikanan",
+  "year": "2018",
+  "note": "Cek perubahan terbaru",
+  "status": "perlu_konfirmasi",
+  "url": "https://peraturan.bpk.go.id/Search?keywords=Permen%20KP%2058/2018"
+ },
+ {
+  "code": "PERBPOM_REG",
+  "name": "Per BPOM 27/2017",
+  "title": "Pendaftaran Pangan Olahan",
+  "issuer": "BPOM",
+  "year": "2017",
+  "note": "Sudah diubah beberapa kali; cek versi terbaru",
+  "status": "perlu_konfirmasi",
+  "url": "https://peraturan.bpk.go.id/Search?keywords=Per%20BPOM%2027/2017"
+ },
+ {
+  "code": "PERBPOM_LABEL",
+  "name": "Per BPOM 31/2018 jo. 20/2021",
+  "title": "Label Pangan Olahan",
+  "issuer": "BPOM",
+  "year": "2021",
+  "note": "",
+  "status": "berlaku_diubah",
+  "url": "https://peraturan.bpk.go.id/Search?keywords=Per%20BPOM%2031/2018"
+ },
+ {
+  "code": "PERBPOM_28_2023",
+  "name": "Per BPOM 28/2023",
+  "title": "Pengawasan Pemasukan Obat dan Makanan ke dalam Wilayah Indonesia",
+  "issuer": "BPOM",
+  "year": "2023",
+  "note": "Cek perubahan terbaru",
+  "status": "perlu_konfirmasi",
+  "url": "https://peraturan.bpk.go.id/Search?keywords=Per%20BPOM%2028/2023"
+ },
+ {
+  "code": "PERBADAN_PSAT",
+  "name": "Perbapanas 10/2025",
+  "title": "Standar Produk Penyelenggaraan Perizinan Berusaha Subsektor Pangan Segar",
+  "issuer": "Badan Pangan Nasional",
+  "year": "2025",
+  "note": "Turunan PP 28/2025; mencakup pendaftaran PSAT.",
+  "status": "berlaku",
+  "url": "https://peraturan.bpk.go.id/Search?keywords=Perbapanas%2010/2025"
+ },
+ {
+  "code": "KEPKABAN_SHLN",
+  "name": "Keputusan Kepala BPJPH",
+  "title": "Registrasi Sertifikat Halal Luar Negeri dan Lembaga Halal Luar Negeri yang diakui",
+  "issuer": "BPJPH",
+  "year": "2024",
+  "note": "Cek daftar LHLN yang berlaku",
+  "status": "perlu_konfirmasi",
+  "url": "https://peraturan.bpk.go.id/Search?keywords=Keputusan%20Kepala%20BPJPH"
+ },
+ {
+  "code": "PMK_IMPOR",
+  "name": "PMK 190/PMK.04/2022",
+  "title": "Pengeluaran Barang Impor untuk Dipakai",
+  "issuer": "Menteri Keuangan",
+  "year": "2022",
+  "note": "Mengatur PIB/BC 2.0, jalur pemeriksaan dan SPPB.",
+  "status": "berlaku",
+  "url": "https://peraturan.bpk.go.id/Search?keywords=PMK%20190/PMK.04/2022"
+ },
+ {
+  "code": "PMK_BTKI",
+  "name": "PMK 26/2022",
+  "title": "Penetapan Sistem Klasifikasi Barang dan Pembebanan Tarif Bea Masuk atas Barang Impor (BTKI 2022)",
+  "issuer": "Kementerian Keuangan",
+  "year": "2022",
+  "note": "Cek perubahan terbaru",
+  "status": "perlu_konfirmasi",
+  "url": "https://peraturan.bpk.go.id/Search?keywords=PMK%2026/2022"
+ },
+ {
+  "code": "PMK_FTA",
+  "name": "PMK Tarif Preferensi FTA",
+  "title": "Tata cara pengenaan tarif bea masuk dalam rangka perjanjian internasional (AANZFTA, IA-CEPA, IJEPA, ACFTA, AKFTA, RCEP)",
+  "issuer": "Kementerian Keuangan",
+  "year": "2022",
+  "note": "Satu PMK per perjanjian",
+  "status": "berlaku",
+  "url": "https://peraturan.bpk.go.id/Search?keywords=PMK%20Tarif%20Preferensi%20FTA"
+ },
+ {
+  "code": "PERMENTAN_5_2022",
+  "name": "Permentan 5/2022",
+  "title": "Pengawasan Rekomendasi Impor Produk Hortikultura",
+  "issuer": "Kementerian Pertanian",
+  "year": "2022",
+  "note": "",
+  "status": "berlaku",
+  "url": "https://peraturan.bpk.go.id/Search?keywords=Permentan%205/2022"
+ }
+]

@@ -1,0 +1,11 @@
+# Dipakai bila seluruh isi Izinara diunggah langsung ke public_html (document root tidak bisa diubah).
+# Semua permintaan diteruskan ke folder public/, sehingga .env, storage/, vendor/ tidak bisa diakses dari web.
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteRule ^(\.env|\.git|composer\.(json|lock)|artisan)$ - [F,L]
+    RewriteCond %{REQUEST_URI} !^/public/
+    RewriteRule ^(.*)$ public/$1 [L]
+</IfModule>
+<FilesMatch "^\.">
+    Require all denied
+</FilesMatch>

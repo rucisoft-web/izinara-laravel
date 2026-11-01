@@ -1,0 +1,2031 @@
+[
+ {
+  "code": "NIB_API",
+  "name": "NIB sebagai Angka Pengenal Importir (API-U)",
+  "sequence": 1,
+  "authority": "Kementerian Investasi/BKPM",
+  "system": "OSS RBA",
+  "party": "perizinan",
+  "scope": "company",
+  "lead_days": 7,
+  "validity_months": 0,
+  "legal_basis": "UU 6/2023 (Cipta Kerja); PP 28/2025 tentang Penyelenggaraan Perizinan Berusaha Berbasis Risiko; Permendag 16/2025 tentang Kebijakan dan Pengaturan Impor (NIB berlaku sebagai API).",
+  "description": "Syarat dasar semua impor. NIB juga menjadi akses kepabeanan (registrasi kepabeanan otomatis).\n\nKapan diperlukan: sekali untuk perusahaan, sebelum impor pertama, dan setiap kali data usaha berubah.\nHasil: NIB yang berlaku sebagai Angka Pengenal Importir Umum (API-U) dan akses kepabeanan.\nPerhatian: KBLI, alamat gudang dan penanggung jawab harus sama di OSS, INSW dan CEISA; perbedaan data membuat pengajuan rekomendasi, PI dan PIB ditolak.",
+  "regulations": [
+   "PP_28_2025",
+   "UU_CIPTAKER",
+   "PERMENDAG_16_2025"
+  ],
+  "steps": [
+   {
+    "sequence": 10,
+    "name": "Periksa KBLI perdagangan besar/impor pangan aktif di NIB",
+    "party": "perizinan",
+    "duration_days": 1,
+    "instructions": "Cocokkan KBLI dengan komoditas: daging, ikan, pangan olahan, susu, sayur beku. Unduh NIB terbaru dari OSS dan bandingkan KBLI dengan kelompok barang yang diimpor.",
+    "deliverable": "Cetak NIB",
+    "regulations": [
+     "PP_28_2025",
+     "UU_CIPTAKER",
+     "PERMENDAG_16_2025"
+    ],
+    "docs": [
+     {
+      "name": "Cetak NIB",
+      "check_expiry": false,
+      "criteria": "File terbaca jelas dan lengkap semua halaman\nNama perusahaan, produk/item code sesuai pengurusan",
+      "verifier": "perizinan"
+     }
+    ]
+   },
+   {
+    "sequence": 20,
+    "name": "Perbarui data NIB/API-U dan hak akses kepabeanan di OSS",
+    "party": "perizinan",
+    "duration_days": 3,
+    "instructions": "Pastikan alamat gudang, penanggung jawab dan NPWP sama dengan data INSW/CEISA. Ubah data di OSS bila ada perbedaan; tunggu sinkronisasi ke INSW/CEISA sebelum pengajuan berikutnya.",
+    "deliverable": "",
+    "regulations": [
+     "PP_28_2025",
+     "UU_CIPTAKER",
+     "PERMENDAG_16_2025"
+    ],
+    "docs": []
+   },
+   {
+    "sequence": 30,
+    "name": "Simpan NIB ke register izin",
+    "party": "perizinan",
+    "duration_days": 1,
+    "instructions": "Isi nomor NIB, tanggal terbit dan unggah PDF NIB ke register izin agar dipakai semua pengapalan.",
+    "deliverable": "NIB/API",
+    "regulations": [
+     "PP_28_2025",
+     "UU_CIPTAKER",
+     "PERMENDAG_16_2025"
+    ],
+    "docs": [
+     {
+      "name": "NIB/API",
+      "check_expiry": false,
+      "criteria": "Nomor dan tanggal terbit terbaca\nItem/HS, volume dan negara asal sesuai rencana impor",
+      "verifier": "perizinan"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "code": "NKV",
+  "name": "NKV unit usaha produk hewan (cold storage/meat shop)",
+  "sequence": 2,
+  "authority": "Dinas Provinsi bidang Kesmavet",
+  "system": "OSS / Dinas Provinsi",
+  "party": "perizinan",
+  "scope": "company",
+  "lead_days": 30,
+  "validity_months": 60,
+  "legal_basis": "UU 18/2009 jo. UU 41/2014 Peternakan dan Kesehatan Hewan; PP 95/2012 Kesehatan Masyarakat Veteriner; Permentan tentang Sertifikasi NKV unit usaha produk hewan (cek versi terbaru).",
+  "description": "Sertifikat higiene-sanitasi gudang/unit usaha produk hewan; dilampirkan saat mengajukan Rekomendasi Pemasukan.\n\nKapan diperlukan: sebelum mengajukan Rekomendasi Pemasukan produk hewan, untuk setiap gudang/unit usaha yang menyimpan atau menangani daging, unggas dan jeroan.\nHasil: sertifikat Nomor Kontrol Veteriner dengan level tertentu, diperiksa ulang lewat surveilans berkala.\nPerhatian: perubahan alamat, tata letak atau fungsi gudang perlu dilaporkan karena memengaruhi NKV.",
+  "regulations": [
+   "PERMENTAN_NKV",
+   "PP_95_2012",
+   "UU_PKH"
+  ],
+  "steps": [
+   {
+    "sequence": 10,
+    "name": "Siapkan dokumen higiene-sanitasi, SOP rantai dingin dan denah gudang",
+    "party": "perizinan",
+    "duration_days": 7,
+    "instructions": "Kumpulkan denah gudang, SOP rantai dingin (suhu, pencatatan, kalibrasi), program sanitasi dan pengendalian hama, serta daftar alat. Unggah sebagai satu dokumen dengan beberapa file.",
+    "deliverable": "",
+    "regulations": [
+     "PERMENTAN_NKV",
+     "PP_95_2012",
+     "UU_PKH"
+    ],
+    "docs": []
+   },
+   {
+    "sequence": 20,
+    "name": "Ajukan sertifikasi NKV dan jadwalkan audit dinas",
+    "party": "perizinan",
+    "duration_days": 14,
+    "instructions": "Ajukan lewat OSS/dinas provinsi, unggah bukti pengajuan, dan catat jadwal audit di aktivitas ini.",
+    "deliverable": "",
+    "regulations": [
+     "PERMENTAN_NKV",
+     "PP_95_2012",
+     "UU_PKH"
+    ],
+    "docs": []
+   },
+   {
+    "sequence": 30,
+    "name": "Tindak lanjuti temuan audit",
+    "party": "perizinan",
+    "duration_days": 7,
+    "instructions": "Catat setiap temuan auditor, tetapkan penanggung jawab dan tenggat perbaikan, lalu kirim bukti perbaikan ke dinas.",
+    "deliverable": "",
+    "regulations": [
+     "PERMENTAN_NKV",
+     "PP_95_2012",
+     "UU_PKH"
+    ],
+    "docs": []
+   },
+   {
+    "sequence": 40,
+    "name": "Simpan sertifikat NKV dan jadwalkan surveilans",
+    "party": "perizinan",
+    "duration_days": 1,
+    "instructions": "Isi nomor dan level NKV, tanggal terbit dan masa berlaku di register; catat jadwal surveilans berikutnya.",
+    "deliverable": "Sertifikat NKV",
+    "regulations": [
+     "PERMENTAN_NKV",
+     "PP_95_2012",
+     "UU_PKH"
+    ],
+    "docs": [
+     {
+      "name": "Sertifikat NKV",
+      "check_expiry": true,
+      "criteria": "Nomor dan tanggal terbit terbaca\nItem/HS, volume dan negara asal sesuai rencana impor\nMasa berlaku mencakup ETA pengapalan",
+      "verifier": "perizinan"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "code": "EST_APPROVAL",
+  "name": "Persetujuan negara & unit usaha asal (establishment)",
+  "sequence": 5,
+  "authority": "Kementan – Ditjen PKH",
+  "system": "SIMREK Ditjen PKH",
+  "party": "perizinan",
+  "scope": "supplier",
+  "lead_days": 5,
+  "validity_months": 12,
+  "legal_basis": "UU 18/2009 jo. UU 41/2014; PP 95/2012; Permentan 42/2019 tentang Pemasukan Karkas, Daging, Jeroan dan/atau Olahannya; Permentan 19/2025 tentang Persyaratan Pemasukan Produk Hewan dalam Hal Tertentu dari Negara/Zona.",
+  "description": "Produk hewan hanya boleh dimasukkan dari negara/zona dan unit usaha (RPH, pabrik) yang sudah disetujui Kementan, termasuk penyembelihan halal untuk produk halal.\n\nKapan diperlukan: untuk setiap pemasok/unit usaha asal produk hewan (RPH, pabrik pengolahan, cold storage) sebelum PO pertama.\nHasil: bukti bahwa negara/zona dan unit usaha asal sudah disetujui Kementan; dipakai ulang untuk semua pengapalan dari unit usaha yang sama.\nPerhatian: jangan menerbitkan PO ke unit usaha yang belum disetujui; prosesnya bisa memakan waktu lama.",
+  "regulations": [
+   "PERMENTAN_42_2019",
+   "PERMENTAN_19_2025",
+   "PP_95_2012",
+   "UU_PKH"
+  ],
+  "steps": [
+   {
+    "sequence": 10,
+    "name": "Minta nomor establishment, alamat RPH/pabrik dan sertifikat halal penyembelihan",
+    "party": "purchasing",
+    "duration_days": 3,
+    "instructions": "Dari eksportir/prinsipal. Purchasing meminta nomor establishment, nama dan alamat RPH/pabrik, serta sertifikat halal penyembelihan dari prinsipal. Pastikan nomor establishment sama dengan yang tercetak di health certificate.",
+    "deliverable": "Data establishment",
+    "regulations": [
+     "PERMENTAN_42_2019",
+     "PERMENTAN_19_2025",
+     "PP_95_2012",
+     "UU_PKH"
+    ],
+    "docs": [
+     {
+      "name": "Data establishment",
+      "check_expiry": false,
+      "criteria": "Nomor establishment dan alamat RPH/pabrik\nBukti penyembelihan halal (untuk produk halal)",
+      "verifier": "perizinan"
+     }
+    ]
+   },
+   {
+    "sequence": 20,
+    "name": "Cek negara/zona dan unit usaha ada di daftar yang disetujui Kementan",
+    "party": "perizinan",
+    "duration_days": 2,
+    "instructions": "Daftar unit usaha di SIMREK/Ditjen PKH. Bagian Perizinan mencari negara, zona dan nomor establishment di daftar unit usaha yang disetujui. Unggah tangkapan layar atau cetakan hasil pencarian.",
+    "deliverable": "",
+    "regulations": [
+     "PERMENTAN_19_2025",
+     "PERMENTAN_42_2019"
+    ],
+    "docs": []
+   },
+   {
+    "sequence": 30,
+    "name": "Bila belum disetujui: minta prinsipal mengajukan penilaian unit usaha lewat otoritas veteriner negara asal",
+    "party": "purchasing",
+    "duration_days": 3,
+    "instructions": "Perizinan menyiapkan daftar persyaratan; Purchasing yang menghubungi prinsipal. Bila belum terdaftar, Perizinan menyiapkan daftar persyaratan dan Purchasing meneruskannya ke prinsipal. Prinsipal mengajukan lewat otoritas veteriner negaranya.",
+    "deliverable": "",
+    "regulations": [
+     "PERMENTAN_42_2019",
+     "PERMENTAN_19_2025",
+     "PP_95_2012",
+     "UU_PKH"
+    ],
+    "docs": []
+   },
+   {
+    "sequence": 40,
+    "name": "Pantau penilaian unit usaha di Kementan",
+    "party": "perizinan",
+    "duration_days": 60,
+    "instructions": "Proses audit bisa berbulan-bulan; tandai pemasok belum bisa dipakai. Catat perkembangan penilaian di catatan aktivitas. Selama belum disetujui, pemasok ditandai belum bisa dipakai untuk produk hewan.",
+    "deliverable": "",
+    "regulations": [
+     "PERMENTAN_42_2019",
+     "PERMENTAN_19_2025",
+     "PP_95_2012",
+     "UU_PKH"
+    ],
+    "docs": []
+   },
+   {
+    "sequence": 50,
+    "name": "Simpan bukti persetujuan unit usaha",
+    "party": "perizinan",
+    "duration_days": 1,
+    "instructions": "Unggah surat/daftar persetujuan dan isi masa berlaku di register izin pemasok.",
+    "deliverable": "Bukti approval establishment",
+    "regulations": [
+     "PERMENTAN_42_2019",
+     "PERMENTAN_19_2025",
+     "PP_95_2012",
+     "UU_PKH"
+    ],
+    "docs": [
+     {
+      "name": "Bukti approval establishment",
+      "check_expiry": false,
+      "criteria": "Nomor dan tanggal terbit terbaca\nItem/HS, volume dan negara asal sesuai rencana impor",
+      "verifier": "perizinan"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "code": "RP_KEMENTAN",
+  "name": "Rekomendasi Pemasukan Produk Hewan (RP)",
+  "sequence": 10,
+  "authority": "Kementan – Ditjen PKH",
+  "system": "SIMREK / SINSW",
+  "party": "perizinan",
+  "scope": "product",
+  "lead_days": 14,
+  "validity_months": 12,
+  "legal_basis": "UU 18/2009 jo. UU 41/2014; PP 95/2012; Permentan 42/2019 (jo. perubahannya); Perpres 32/2022 tentang Neraca Komoditas.",
+  "description": "Rekomendasi teknis sebelum Persetujuan Impor untuk karkas, daging, jeroan, unggas dan olahannya. Berlaku untuk jenis, HS, negara, unit usaha dan volume yang disebut.\n\nKapan diperlukan: setiap rencana impor karkas, daging, jeroan, unggas dan olahannya (PSAH dan daging olahan), sebelum mengajukan Persetujuan Impor.\nHasil: Rekomendasi Pemasukan yang menyebut jenis produk, HS, negara, unit usaha asal, volume dan masa berlaku.\nPerhatian: impor hanya boleh sesuai isi rekomendasi; produk, HS atau unit usaha yang berbeda memerlukan rekomendasi baru.",
+  "regulations": [
+   "PERMENTAN_42_2019",
+   "PERPRES_32_2022",
+   "PP_95_2012",
+   "UU_PKH"
+  ],
+  "steps": [
+   {
+    "sequence": 10,
+    "name": "Susun rencana impor: jenis, HS 8 digit, volume, negara, unit usaha, pelabuhan",
+    "party": "purchasing",
+    "duration_days": 3,
+    "instructions": "Purchasing menyusun rencana impor per item: jenis produk (karkas/daging/jeroan/olahan), HS 8 digit, volume, negara, nomor establishment dan pelabuhan tujuan.",
+    "deliverable": "Rencana impor",
+    "regulations": [
+     "PERPRES_32_2022",
+     "PERMENTAN_42_2019"
+    ],
+    "docs": [
+     {
+      "name": "Rencana impor",
+      "check_expiry": false,
+      "criteria": "Jenis, HS 8 digit, volume dan negara asal lengkap\nSesuai alokasi Neraca Komoditas",
+      "verifier": "perizinan"
+     }
+    ]
+   },
+   {
+    "sequence": 20,
+    "name": "Lengkapi dokumen: NIB, NKV gudang, kapasitas cold storage, kontrak/LoI, sertifikat halal unit usaha",
+    "party": "perizinan",
+    "duration_days": 3,
+    "instructions": "Bagian Perizinan memeriksa NIB, NKV, kapasitas cold storage, kontrak/LoI dan sertifikat halal unit usaha sudah lengkap dan masih berlaku.",
+    "deliverable": "",
+    "regulations": [
+     "PERMENTAN_42_2019",
+     "PERMENTAN_NKV"
+    ],
+    "docs": []
+   },
+   {
+    "sequence": 30,
+    "name": "Ajukan RP di SIMREK/SINSW",
+    "party": "perizinan",
+    "duration_days": 1,
+    "instructions": "Ajukan permohonan di SIMREK/SINSW sesuai rencana impor dan unggah bukti pengajuan.",
+    "deliverable": "Bukti pengajuan",
+    "regulations": [
+     "PERMENTAN_42_2019",
+     "PERPRES_32_2022",
+     "PP_95_2012",
+     "UU_PKH"
+    ],
+    "docs": [
+     {
+      "name": "Bukti pengajuan",
+      "check_expiry": false,
+      "criteria": "Nomor transaksi/aju terbaca\nNilai dan tanggal sesuai",
+      "verifier": "perizinan"
+     }
+    ]
+   },
+   {
+    "sequence": 40,
+    "name": "Pantau verifikasi dan jawab koreksi",
+    "party": "perizinan",
+    "duration_days": 7,
+    "instructions": "Pantau status setiap hari. Bila diminta koreksi, perbaiki data atau minta dokumen tambahan ke prinsipal lewat memo ke Purchasing.",
+    "deliverable": "",
+    "regulations": [
+     "PERMENTAN_42_2019",
+     "PERPRES_32_2022",
+     "PP_95_2012",
+     "UU_PKH"
+    ],
+    "docs": []
+   },
+   {
+    "sequence": 50,
+    "name": "Unduh RP terbit, catat volume dan masa berlaku",
+    "party": "perizinan",
+    "duration_days": 1,
+    "instructions": "Unggah rekomendasi yang terbit, lalu isi nomor, volume dan masa berlakunya. Rekomendasi otomatis menutup kebutuhan izin item yang disebut.",
+    "deliverable": "RP Kementan",
+    "regulations": [
+     "PERMENTAN_42_2019",
+     "PERPRES_32_2022",
+     "PP_95_2012",
+     "UU_PKH"
+    ],
+    "docs": [
+     {
+      "name": "RP Kementan",
+      "check_expiry": true,
+      "criteria": "Nomor dan tanggal terbit terbaca\nItem/HS, volume dan negara asal sesuai rencana impor\nMasa berlaku mencakup ETA pengapalan",
+      "verifier": "perizinan"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "code": "RPHP_KKP",
+  "name": "Rekomendasi Pemasukan Hasil Perikanan",
+  "sequence": 11,
+  "authority": "KKP – Ditjen PDSPKP",
+  "system": "SINSW / sistem KKP",
+  "party": "perizinan",
+  "scope": "product",
+  "lead_days": 14,
+  "validity_months": 12,
+  "legal_basis": "UU 31/2004 jo. UU 45/2009 Perikanan; Permen KP tentang Pengendalian Impor Komoditas Perikanan (Permen KP 58/2018 jo. perubahannya, cek versi terbaru); Perpres 32/2022 Neraca Komoditas.",
+  "description": "Rekomendasi teknis sebelum PI untuk ikan dan hasil perikanan. Peruntukan (hotel, restoran, katering, ritel modern, bahan baku) harus sesuai.\n\nKapan diperlukan: setiap rencana impor ikan, krustasea dan moluska (PSAI), sebelum Persetujuan Impor.\nHasil: rekomendasi pemasukan hasil perikanan sesuai jenis, volume, negara dan peruntukan.\nPerhatian: barang hanya boleh dijual ke peruntukan yang disebut dalam rekomendasi (mis. hotel, restoran, katering, ritel modern atau bahan baku industri).",
+  "regulations": [
+   "PERMENKP_IMPOR",
+   "PERMENDAG_19_2025",
+   "PERPRES_32_2022",
+   "UU_PERIKANAN"
+  ],
+  "steps": [
+   {
+    "sequence": 10,
+    "name": "Susun rencana impor ikan: jenis, HS, volume, negara, peruntukan",
+    "party": "purchasing",
+    "duration_days": 3,
+    "instructions": "Purchasing menyusun rencana impor per jenis ikan/krustasea/moluska: HS, volume, negara asal dan peruntukan penjualan.",
+    "deliverable": "Rencana impor",
+    "regulations": [
+     "PERMENKP_IMPOR",
+     "PERMENDAG_19_2025",
+     "PERPRES_32_2022",
+     "UU_PERIKANAN"
+    ],
+    "docs": [
+     {
+      "name": "Rencana impor",
+      "check_expiry": false,
+      "criteria": "Jenis, HS 8 digit, volume dan negara asal lengkap\nSesuai alokasi Neraca Komoditas",
+      "verifier": "perizinan"
+     }
+    ]
+   },
+   {
+    "sequence": 20,
+    "name": "Lengkapi dokumen: NIB, kapasitas cold storage, kontrak, contoh health certificate",
+    "party": "perizinan",
+    "duration_days": 3,
+    "instructions": "Bagian Perizinan memeriksa NIB, kapasitas cold storage, kontrak dan contoh health certificate dari otoritas negara asal.",
+    "deliverable": "",
+    "regulations": [
+     "PERMENKP_IMPOR",
+     "PERMENDAG_19_2025",
+     "PERPRES_32_2022",
+     "UU_PERIKANAN"
+    ],
+    "docs": []
+   },
+   {
+    "sequence": 30,
+    "name": "Ajukan rekomendasi pemasukan hasil perikanan",
+    "party": "perizinan",
+    "duration_days": 1,
+    "instructions": "Ajukan rekomendasi di sistem KKP/SINSW dan unggah bukti pengajuan.",
+    "deliverable": "",
+    "regulations": [
+     "PERMENKP_IMPOR",
+     "PERMENDAG_19_2025",
+     "PERPRES_32_2022",
+     "UU_PERIKANAN"
+    ],
+    "docs": []
+   },
+   {
+    "sequence": 40,
+    "name": "Pantau verifikasi dan jawab koreksi",
+    "party": "perizinan",
+    "duration_days": 7,
+    "instructions": "Pantau verifikasi dan jawab koreksi. Data dari prinsipal diminta lewat memo ke Purchasing.",
+    "deliverable": "",
+    "regulations": [
+     "PERMENKP_IMPOR",
+     "PERMENDAG_19_2025",
+     "PERPRES_32_2022",
+     "UU_PERIKANAN"
+    ],
+    "docs": []
+   },
+   {
+    "sequence": 50,
+    "name": "Unduh rekomendasi terbit, catat volume dan masa berlaku",
+    "party": "perizinan",
+    "duration_days": 1,
+    "instructions": "Unggah rekomendasi yang terbit, lalu catat volume, peruntukan dan masa berlakunya di register.",
+    "deliverable": "Rekomendasi KKP",
+    "regulations": [
+     "PERMENKP_IMPOR",
+     "PERMENDAG_19_2025",
+     "PERPRES_32_2022",
+     "UU_PERIKANAN"
+    ],
+    "docs": [
+     {
+      "name": "Rekomendasi KKP",
+      "check_expiry": true,
+      "criteria": "Nomor dan tanggal terbit terbaca\nItem/HS, volume dan negara asal sesuai rencana impor\nMasa berlaku mencakup ETA pengapalan",
+      "verifier": "perizinan"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "code": "RIPH",
+  "name": "Rekomendasi Impor Produk Hortikultura (RIPH)",
+  "sequence": 12,
+  "authority": "Kementan – Ditjen Hortikultura",
+  "system": "SIMPEL/SINSW",
+  "party": "perizinan",
+  "scope": "product",
+  "lead_days": 14,
+  "validity_months": 12,
+  "legal_basis": "UU 13/2010 Hortikultura; Permentan tentang RIPH (Permentan 39/2019 jo. perubahannya). Hanya untuk HS yang termasuk lartas hortikultura di INSW.",
+  "description": "Untuk sayur/buah segar atau beku yang termasuk lartas. Cek HS di INSW dulu; bila tidak wajib, tandai selesai dengan catatan.\n\nKapan diperlukan: untuk sayur/buah segar atau beku yang HS-nya terkena lartas hortikultura.\nHasil: RIPH sebagai dasar Persetujuan Impor; bila HS tidak wajib, cukup catatan hasil cek INSW.\nPerhatian: periksa lartas setiap kali HS atau jenis produk berubah.",
+  "regulations": [
+   "PERMENTAN_RIPH",
+   "PERMENDAG_18_2025",
+   "UU_HORTI",
+   "PERMENTAN_5_2022"
+  ],
+  "steps": [
+   {
+    "sequence": 10,
+    "name": "Cek HS di INSW apakah wajib RIPH",
+    "party": "impor",
+    "duration_days": 1,
+    "instructions": "Bagian Impor mencari HS 8 digit di INSW dan mengunggah hasilnya. Bila tidak wajib RIPH, tandai aktivitas berikutnya selesai dengan catatan.",
+    "deliverable": "Hasil cek INSW",
+    "regulations": [
+     "PERMENTAN_RIPH",
+     "PERMENDAG_18_2025",
+     "UU_HORTI"
+    ],
+    "docs": [
+     {
+      "name": "Hasil cek INSW",
+      "check_expiry": false,
+      "criteria": "Semua HS item sudah dicek\nDaftar lartas border/post-border tercatat",
+      "verifier": "perizinan"
+     }
+    ]
+   },
+   {
+    "sequence": 20,
+    "name": "Lengkapi dokumen RIPH",
+    "party": "perizinan",
+    "duration_days": 3,
+    "instructions": "Lengkapi dokumen yang diminta: NIB, data gudang, rencana impor dan dokumen produk dari prinsipal.",
+    "deliverable": "",
+    "regulations": [
+     "PERMENTAN_RIPH",
+     "PERMENDAG_18_2025",
+     "UU_HORTI"
+    ],
+    "docs": []
+   },
+   {
+    "sequence": 30,
+    "name": "Ajukan RIPH",
+    "party": "perizinan",
+    "duration_days": 1,
+    "instructions": "Ajukan RIPH di sistem Kementan/SINSW dan unggah bukti pengajuan.",
+    "deliverable": "",
+    "regulations": [
+     "PERMENTAN_RIPH",
+     "PERMENDAG_18_2025",
+     "UU_HORTI"
+    ],
+    "docs": []
+   },
+   {
+    "sequence": 40,
+    "name": "Pantau dan unduh RIPH terbit",
+    "party": "perizinan",
+    "duration_days": 7,
+    "instructions": "Pantau sampai terbit, lalu unggah RIPH dan catat volume serta masa berlakunya.",
+    "deliverable": "RIPH",
+    "regulations": [
+     "PERMENTAN_RIPH",
+     "PERMENDAG_18_2025",
+     "UU_HORTI"
+    ],
+    "docs": [
+     {
+      "name": "RIPH",
+      "check_expiry": true,
+      "criteria": "Nomor dan tanggal terbit terbaca\nItem/HS, volume dan negara asal sesuai rencana impor\nMasa berlaku mencakup ETA pengapalan",
+      "verifier": "perizinan"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "code": "PSAT",
+  "name": "Registrasi PSAT impor (pangan segar asal tumbuhan)",
+  "sequence": 13,
+  "authority": "Badan Pangan Nasional",
+  "system": "e-PSAT",
+  "party": "pangan",
+  "scope": "product",
+  "lead_days": 21,
+  "validity_months": 60,
+  "legal_basis": "UU 18/2012 Pangan; PP 86/2019 Keamanan Pangan; Peraturan Badan Pangan Nasional tentang pendaftaran PSAT (cek versi terbaru).",
+  "description": "Izin edar untuk sayur/buah segar atau beku tanpa pengolahan lanjut.\n\nKapan diperlukan: sebelum mengedarkan pangan segar asal tumbuhan (sayur/buah segar atau beku tanpa pengolahan lanjut).\nHasil: nomor registrasi PSAT yang wajib dicantumkan pada label.\nPerhatian: produk yang sudah diolah (dimasak, diberi bumbu) masuk BPOM ML, bukan PSAT.",
+  "regulations": [
+   "PERBADAN_PSAT",
+   "PP_86_2019",
+   "UU_PANGAN"
+  ],
+  "steps": [
+   {
+    "sequence": 10,
+    "name": "Kumpulkan spesifikasi, CoA dan dokumen produsen",
+    "party": "purchasing",
+    "duration_days": 5,
+    "instructions": "Purchasing meminta spesifikasi produk, CoA (residu pestisida, cemaran), dokumen produsen dan foto label asli.",
+    "deliverable": "",
+    "regulations": [
+     "PERBADAN_PSAT",
+     "PP_86_2019",
+     "UU_PANGAN"
+    ],
+    "docs": []
+   },
+   {
+    "sequence": 20,
+    "name": "Ajukan registrasi PSAT",
+    "party": "pangan",
+    "duration_days": 2,
+    "instructions": "Bagian Makanan Luar mengajukan registrasi di sistem PSAT dan mengunggah bukti pengajuan.",
+    "deliverable": "",
+    "regulations": [
+     "PERBADAN_PSAT",
+     "PP_86_2019",
+     "UU_PANGAN"
+    ],
+    "docs": []
+   },
+   {
+    "sequence": 30,
+    "name": "Pantau evaluasi dan jawab koreksi",
+    "party": "pangan",
+    "duration_days": 12,
+    "instructions": "Tanggapi permintaan data tambahan dari evaluator; data dari prinsipal diminta lewat Purchasing.",
+    "deliverable": "",
+    "regulations": [
+     "PERBADAN_PSAT",
+     "PP_86_2019",
+     "UU_PANGAN"
+    ],
+    "docs": []
+   },
+   {
+    "sequence": 40,
+    "name": "Catat nomor registrasi dan label",
+    "party": "pangan",
+    "duration_days": 2,
+    "instructions": "Catat nomor registrasi di register izin dan pastikan nomor tercantum di rancangan label.",
+    "deliverable": "Nomor PSAT",
+    "regulations": [
+     "PERBADAN_PSAT",
+     "PP_86_2019",
+     "UU_PANGAN"
+    ],
+    "docs": [
+     {
+      "name": "Nomor PSAT",
+      "check_expiry": true,
+      "criteria": "Nomor dan tanggal terbit terbaca\nItem/HS, volume dan negara asal sesuai rencana impor\nMasa berlaku mencakup ETA pengapalan",
+      "verifier": "pangan"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "code": "PI_KEMENDAG",
+  "name": "Persetujuan Impor (PI) Kemendag",
+  "sequence": 20,
+  "authority": "Kemendag – Ditjen Perdagangan Luar Negeri",
+  "system": "INATRADE / SINSW",
+  "party": "impor",
+  "scope": "product",
+  "lead_days": 14,
+  "validity_months": 12,
+  "legal_basis": "Permendag 16/2025 tentang Kebijakan dan Pengaturan Impor; Permendag 18/2025 tentang Kebijakan dan Pengaturan Impor Barang Pertanian dan Peternakan (jo. perubahannya); Permendag 19/2025 tentang Kebijakan dan Pengaturan Impor Garam dan Komoditas Perikanan; Perpres 32/2022 Neraca Komoditas.",
+  "description": "Diterbitkan berdasarkan rekomendasi teknis (RP/KKP/RIPH) dan Neraca Komoditas. Catat volume dan realisasi.\n\nKapan diperlukan: setelah rekomendasi teknis (RP Kementan, rekomendasi KKP atau RIPH) terbit, sebelum barang dikapalkan.\nHasil: Persetujuan Impor dengan volume, HS, negara, pelabuhan dan masa berlaku; realisasi impor wajib dilaporkan.\nPerhatian: volume PI tidak boleh terlampaui; catat realisasi setiap pengapalan.",
+  "regulations": [
+   "PERMENDAG_16_2025",
+   "PERMENDAG_18_2025",
+   "PERMENDAG_19_2025",
+   "PERPRES_32_2022"
+  ],
+  "steps": [
+   {
+    "sequence": 10,
+    "name": "Pastikan rekomendasi teknis (RP/KKP/RIPH) sudah terbit",
+    "party": "impor",
+    "duration_days": 1,
+    "instructions": "Buka tab Kebutuhan izin pada pengapalan dan pastikan rekomendasi teknis tiap item berstatus lengkap.",
+    "deliverable": "",
+    "regulations": [
+     "PERMENDAG_16_2025",
+     "PERMENDAG_18_2025",
+     "PERMENDAG_19_2025",
+     "PERPRES_32_2022"
+    ],
+    "docs": []
+   },
+   {
+    "sequence": 20,
+    "name": "Ajukan PI di SINSW sesuai Neraca Komoditas",
+    "party": "impor",
+    "duration_days": 1,
+    "instructions": "Ajukan PI di SINSW sesuai volume pada rekomendasi dan Neraca Komoditas, lalu unggah bukti pengajuan.",
+    "deliverable": "Bukti pengajuan",
+    "regulations": [
+     "PERMENDAG_16_2025",
+     "PERPRES_32_2022"
+    ],
+    "docs": [
+     {
+      "name": "Bukti pengajuan",
+      "check_expiry": false,
+      "criteria": "Nomor transaksi/aju terbaca\nNilai dan tanggal sesuai",
+      "verifier": "impor"
+     }
+    ]
+   },
+   {
+    "sequence": 30,
+    "name": "Pantau penerbitan PI",
+    "party": "impor",
+    "duration_days": 7,
+    "instructions": "Pantau status penerbitan; tanggapi permintaan perbaikan data.",
+    "deliverable": "",
+    "regulations": [
+     "PERMENDAG_16_2025",
+     "PERMENDAG_18_2025",
+     "PERMENDAG_19_2025",
+     "PERPRES_32_2022"
+    ],
+    "docs": []
+   },
+   {
+    "sequence": 40,
+    "name": "Catat nomor PI, volume, pelabuhan dan masa berlaku",
+    "party": "impor",
+    "duration_days": 1,
+    "instructions": "Unggah PI, isi nomor, volume, pelabuhan dan masa berlaku. PI dipakai untuk PIB dan pengapalan berikutnya selama volume masih tersedia.",
+    "deliverable": "PI",
+    "regulations": [
+     "PERMENDAG_16_2025",
+     "PERMENDAG_18_2025",
+     "PERMENDAG_19_2025",
+     "PERPRES_32_2022"
+    ],
+    "docs": [
+     {
+      "name": "PI",
+      "check_expiry": true,
+      "criteria": "Nomor dan tanggal terbit terbaca\nItem/HS, volume dan negara asal sesuai rencana impor\nMasa berlaku mencakup ETA pengapalan",
+      "verifier": "impor"
+     }
+    ]
+   },
+   {
+    "sequence": 50,
+    "name": "Bila diwajibkan: atur verifikasi Laporan Surveyor (LS) di pelabuhan muat",
+    "party": "purchasing",
+    "duration_days": 3,
+    "instructions": "Bila PI mewajibkan Laporan Surveyor, Purchasing meminta prinsipal menjadwalkan pemeriksaan surveyor di pelabuhan muat dan mengunggah LS.",
+    "deliverable": "LS",
+    "regulations": [
+     "PERMENDAG_16_2025"
+    ],
+    "docs": [
+     {
+      "name": "LS",
+      "check_expiry": false,
+      "criteria": "Nomor dan tanggal terbit terbaca\nItem/HS, volume dan negara asal sesuai rencana impor",
+      "verifier": "impor"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "code": "ML_BPOM",
+  "name": "Izin edar pangan olahan ML (BPOM)",
+  "sequence": 30,
+  "authority": "BPOM",
+  "system": "e-Registration BPOM",
+  "party": "pangan",
+  "scope": "product",
+  "lead_days": 60,
+  "validity_months": 60,
+  "legal_basis": "UU 18/2012 Pangan; PP 86/2019 Keamanan Pangan; Peraturan BPOM tentang Pendaftaran Pangan Olahan (Per BPOM 27/2017 jo. perubahannya, cek versi terbaru); Per BPOM 31/2018 jo. 20/2021 tentang Label Pangan Olahan.",
+  "description": "Nomor ML wajib sebelum pangan olahan impor diedarkan. Berlaku 5 tahun dan dipakai untuk SKI tiap pengapalan.\n\nKapan diperlukan: untuk setiap produk pangan olahan impor (termasuk daging olahan, olahan ikan, susu, pasta, makanan beku) sebelum diedarkan.\nHasil: Nomor Izin Edar ML yang berlaku 5 tahun dan menjadi dasar SKI setiap pengapalan.\nPerhatian: satu NIE berlaku untuk satu produk dengan merek, komposisi, ukuran kemasan dan produsen tertentu; perubahan memerlukan registrasi variasi.",
+  "regulations": [
+   "PERBPOM_REG",
+   "PERBPOM_LABEL",
+   "PP_86_2019",
+   "UU_PANGAN"
+  ],
+  "steps": [
+   {
+    "sequence": 10,
+    "name": "Minta dokumen prinsipal: LoA, Certificate of Free Sale/Health Certificate, GMP/HACCP/ISO 22000, komposisi, spesifikasi, CoA, alur proses, foto label asli",
+    "party": "purchasing",
+    "duration_days": 14,
+    "instructions": "Purchasing meminta semua dokumen prinsipal sekaligus agar evaluasi tidak tertunda. Unggah setiap dokumen sebagai file terpisah dalam satu dokumen.",
+    "deliverable": "Dokumen prinsipal",
+    "regulations": [
+     "PERBPOM_REG",
+     "PERBPOM_LABEL",
+     "PP_86_2019",
+     "UU_PANGAN"
+    ],
+    "docs": [
+     {
+      "name": "Dokumen prinsipal",
+      "check_expiry": false,
+      "criteria": "Surat penunjukan (LoA) bertanggal dan ditandatangani prinsipal\nCertificate of Free Sale/Health Certificate dari otoritas negara asal\nSertifikat GMP/HACCP/ISO 22000 masih berlaku\nKomposisi lengkap 100% dan spesifikasi produk\nCoA lot terbaru",
+      "verifier": "pangan"
+     }
+    ]
+   },
+   {
+    "sequence": 20,
+    "name": "Tentukan kategori pangan, cek BTP, klaim dan batas cemaran",
+    "party": "pangan",
+    "duration_days": 3,
+    "instructions": "Bagian Makanan Luar menentukan kategori pangan, memeriksa BTP dan batas cemaran terhadap peraturan BPOM, dan menilai klaim pada label asli.",
+    "deliverable": "",
+    "regulations": [
+     "PERBPOM_REG",
+     "PERBPOM_LABEL",
+     "PP_86_2019",
+     "UU_PANGAN"
+    ],
+    "docs": []
+   },
+   {
+    "sequence": 30,
+    "name": "Susun rancangan label Bahasa Indonesia (nama, komposisi, berat bersih, importir, negara asal, kedaluwarsa, kode produksi, logo halal/keterangan tidak halal)",
+    "party": "pangan",
+    "duration_days": 3,
+    "instructions": "Susun rancangan label Bahasa Indonesia lengkap dan unggah file desainnya untuk diverifikasi.",
+    "deliverable": "Rancangan label",
+    "regulations": [
+     "PERBPOM_LABEL",
+     "PP_42_2024"
+    ],
+    "docs": [
+     {
+      "name": "Rancangan label",
+      "check_expiry": false,
+      "criteria": "Nama produk, komposisi, berat bersih, negara asal\nNama dan alamat importir (Indoguna)\nTanggal kedaluwarsa dan kode produksi\nLogo halal Indonesia atau keterangan tidak halal sesuai status produk",
+      "verifier": "pangan"
+     }
+    ]
+   },
+   {
+    "sequence": 40,
+    "name": "Ajukan di e-Registration BPOM dan bayar PNBP",
+    "party": "pangan",
+    "duration_days": 1,
+    "instructions": "Ajukan registrasi di e-Registration BPOM, bayar PNBP dan unggah bukti bayar.",
+    "deliverable": "Bukti bayar",
+    "regulations": [
+     "PERBPOM_REG",
+     "PERBPOM_LABEL",
+     "PP_86_2019",
+     "UU_PANGAN"
+    ],
+    "docs": [
+     {
+      "name": "Bukti bayar",
+      "check_expiry": false,
+      "criteria": "Nomor transaksi/aju terbaca\nNilai dan tanggal sesuai",
+      "verifier": "pangan"
+     }
+    ]
+   },
+   {
+    "sequence": 50,
+    "name": "Tanggapi tambahan data hasil evaluasi",
+    "party": "pangan",
+    "duration_days": 20,
+    "instructions": "Data yang harus datang dari prinsipal diminta lewat Purchasing. Pantau hasil evaluasi. Bila evaluator meminta data tambahan dari prinsipal, kirim memo ke Purchasing dari aktivitas ini.",
+    "deliverable": "",
+    "regulations": [
+     "PERBPOM_REG",
+     "PERBPOM_LABEL",
+     "PP_86_2019",
+     "UU_PANGAN"
+    ],
+    "docs": []
+   },
+   {
+    "sequence": 60,
+    "name": "Unduh NIE ML dan catat masa berlaku",
+    "party": "pangan",
+    "duration_days": 1,
+    "instructions": "Unggah NIE ML, isi nomor dan masa berlaku di register; NIE dipakai otomatis untuk SKI pengapalan berikutnya.",
+    "deliverable": "NIE ML",
+    "regulations": [
+     "PERBPOM_REG",
+     "PERBPOM_LABEL",
+     "PP_86_2019",
+     "UU_PANGAN"
+    ],
+    "docs": [
+     {
+      "name": "NIE ML",
+      "check_expiry": true,
+      "criteria": "Nomor dan tanggal terbit terbaca\nItem/HS, volume dan negara asal sesuai rencana impor\nMasa berlaku mencakup ETA pengapalan",
+      "verifier": "pangan"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "code": "SHLN",
+  "name": "Registrasi Sertifikat Halal Luar Negeri (SHLN)",
+  "sequence": 40,
+  "authority": "BPJPH",
+  "system": "SIHALAL",
+  "party": "halal",
+  "scope": "product",
+  "lead_days": 14,
+  "validity_months": 0,
+  "legal_basis": "UU 33/2014 Jaminan Produk Halal jo. UU 6/2023; PP 42/2024 tentang Penyelenggaraan Bidang Jaminan Produk Halal (kewajiban bersertifikat halal untuk produk luar negeri paling lambat 17 Oktober 2026); Keputusan Kepala BPJPH tentang registrasi SHLN dan Lembaga Halal Luar Negeri yang diakui.",
+  "description": "Sertifikat halal produsen luar negeri wajib diregistrasi di BPJPH sebelum produk beredar. Hanya dari Lembaga Halal Luar Negeri (LHLN) yang punya kerja sama saling pengakuan dengan BPJPH. Masa berlaku mengikuti sertifikat asal.\n\nKapan diperlukan: untuk produk halal impor (daging, unggas, olahan, pangan olahan berbahan hewani) sebelum beredar di Indonesia.\nHasil: nomor registrasi Sertifikat Halal Luar Negeri dari BPJPH.\nPerhatian: sertifikat asal harus diterbitkan Lembaga Halal Luar Negeri yang diakui BPJPH dan mencakup produk serta unit usaha yang diimpor.",
+  "regulations": [
+   "PP_42_2024",
+   "KEPKABAN_SHLN",
+   "UU_JPH",
+   "UU_CIPTAKER"
+  ],
+  "steps": [
+   {
+    "sequence": 10,
+    "name": "Minta sertifikat halal produsen beserta daftar produk dan nomor establishment",
+    "party": "purchasing",
+    "duration_days": 7,
+    "instructions": "Purchasing meminta sertifikat halal produsen yang masih berlaku, lengkap dengan daftar produk dan nomor establishment.",
+    "deliverable": "Sertifikat halal LN",
+    "regulations": [
+     "PP_42_2024",
+     "KEPKABAN_SHLN",
+     "UU_JPH",
+     "UU_CIPTAKER"
+    ],
+    "docs": [
+     {
+      "name": "Sertifikat halal LN",
+      "check_expiry": true,
+      "criteria": "Diterbitkan Lembaga Halal Luar Negeri yang diakui BPJPH\nNama dan alamat produsen/establishment sesuai\nDaftar produk mencakup item code yang diimpor\nMasih berlaku saat ETA",
+      "verifier": "halal"
+     }
+    ]
+   },
+   {
+    "sequence": 20,
+    "name": "Cek lembaga penerbit termasuk LHLN yang diakui BPJPH",
+    "party": "halal",
+    "duration_days": 1,
+    "instructions": "Bagian Halal mencocokkan lembaga penerbit dengan daftar LHLN yang diakui BPJPH, serta nama produsen dan daftar produk dengan item code.",
+    "deliverable": "",
+    "regulations": [
+     "KEPKABAN_SHLN",
+     "PP_42_2024"
+    ],
+    "docs": []
+   },
+   {
+    "sequence": 30,
+    "name": "Ajukan registrasi SHLN di SIHALAL dan bayar",
+    "party": "halal",
+    "duration_days": 1,
+    "instructions": "Ajukan registrasi di SIHALAL, bayar tarif layanan dan unggah bukti pengajuan.",
+    "deliverable": "Bukti pengajuan",
+    "regulations": [
+     "PP_42_2024",
+     "KEPKABAN_SHLN",
+     "UU_JPH",
+     "UU_CIPTAKER"
+    ],
+    "docs": [
+     {
+      "name": "Bukti pengajuan",
+      "check_expiry": false,
+      "criteria": "Nomor transaksi/aju terbaca\nNilai dan tanggal sesuai",
+      "verifier": "halal"
+     }
+    ]
+   },
+   {
+    "sequence": 40,
+    "name": "Pantau verifikasi sampai nomor registrasi terbit",
+    "party": "halal",
+    "duration_days": 10,
+    "instructions": "Pantau verifikasi; catat nomor registrasi dan masa berlaku yang mengikuti sertifikat asal.",
+    "deliverable": "Nomor registrasi SHLN",
+    "regulations": [
+     "PP_42_2024",
+     "KEPKABAN_SHLN",
+     "UU_JPH",
+     "UU_CIPTAKER"
+    ],
+    "docs": [
+     {
+      "name": "Nomor registrasi SHLN",
+      "check_expiry": false,
+      "criteria": "Nomor dan tanggal terbit terbaca\nItem/HS, volume dan negara asal sesuai rencana impor",
+      "verifier": "halal"
+     }
+    ]
+   },
+   {
+    "sequence": 50,
+    "name": "Pastikan label halal Indonesia dan nomor registrasi tercantum di label/stiker",
+    "party": "halal",
+    "duration_days": 2,
+    "instructions": "Periksa label/stiker memuat logo halal Indonesia dan nomor registrasi sebelum barang dirilis.",
+    "deliverable": "",
+    "regulations": [
+     "PERBPOM_LABEL",
+     "PP_42_2024"
+    ],
+    "docs": []
+   }
+  ]
+ },
+ {
+  "code": "HALAL_SH",
+  "name": "Sertifikat halal Indonesia (produk dipotong/dikemas ulang)",
+  "sequence": 41,
+  "authority": "BPJPH, LPH, Komite Fatwa",
+  "system": "SIHALAL",
+  "party": "halal",
+  "scope": "product",
+  "lead_days": 30,
+  "validity_months": 0,
+  "legal_basis": "UU 33/2014 jo. UU 6/2023; PP 42/2024.",
+  "description": "Untuk produk yang dipotong, diporsi atau dikemas ulang oleh Indoguna dengan merek/label sendiri.\n\nKapan diperlukan: bila Indoguna memotong, memorsi atau mengemas ulang produk dengan label sendiri.\nHasil: sertifikat halal Indonesia untuk produk dan fasilitas Indoguna.\nPerhatian: perubahan bahan, pemasok atau fasilitas harus dilaporkan dan dapat memerlukan audit ulang.",
+  "regulations": [
+   "PP_42_2024",
+   "UU_JPH",
+   "UU_CIPTAKER"
+  ],
+  "steps": [
+   {
+    "sequence": 10,
+    "name": "Tetapkan Penyelia Halal dan dokumen Sistem Jaminan Produk Halal (SJPH)",
+    "party": "halal",
+    "duration_days": 7,
+    "instructions": "Tunjuk Penyelia Halal bersertifikat dan susun manual Sistem Jaminan Produk Halal (bahan, proses, ketertelusuran, pelatihan, audit internal).",
+    "deliverable": "Manual SJPH",
+    "regulations": [
+     "PP_42_2024",
+     "UU_JPH",
+     "UU_CIPTAKER"
+    ],
+    "docs": [
+     {
+      "name": "Manual SJPH",
+      "check_expiry": false,
+      "criteria": "File terbaca jelas dan lengkap semua halaman\nNama perusahaan, produk/item code sesuai pengurusan",
+      "verifier": "halal"
+     }
+    ]
+   },
+   {
+    "sequence": 20,
+    "name": "Daftar di SIHALAL dan pilih LPH",
+    "party": "halal",
+    "duration_days": 2,
+    "instructions": "Daftar di SIHALAL, pilih Lembaga Pemeriksa Halal (LPH) dan unggah bukti pendaftaran.",
+    "deliverable": "",
+    "regulations": [
+     "PP_42_2024",
+     "UU_JPH",
+     "UU_CIPTAKER"
+    ],
+    "docs": []
+   },
+   {
+    "sequence": 30,
+    "name": "Audit LPH di fasilitas",
+    "party": "halal",
+    "duration_days": 14,
+    "instructions": "Siapkan fasilitas dan dokumen untuk audit LPH; unggah laporan audit dan tindak lanjutnya.",
+    "deliverable": "Laporan audit",
+    "regulations": [
+     "PP_42_2024",
+     "UU_JPH",
+     "UU_CIPTAKER"
+    ],
+    "docs": [
+     {
+      "name": "Laporan audit",
+      "check_expiry": false,
+      "criteria": "File terbaca jelas dan lengkap semua halaman\nNama perusahaan, produk/item code sesuai pengurusan",
+      "verifier": "halal"
+     }
+    ]
+   },
+   {
+    "sequence": 40,
+    "name": "Sidang fatwa dan terbit sertifikat halal",
+    "party": "halal",
+    "duration_days": 7,
+    "instructions": "Pantau sidang fatwa; unggah sertifikat halal dan isi masa berlakunya di register.",
+    "deliverable": "Sertifikat halal",
+    "regulations": [
+     "PP_42_2024",
+     "UU_JPH",
+     "UU_CIPTAKER"
+    ],
+    "docs": [
+     {
+      "name": "Sertifikat halal",
+      "check_expiry": false,
+      "criteria": "Nomor dan tanggal terbit terbaca\nItem/HS, volume dan negara asal sesuai rencana impor",
+      "verifier": "halal"
+     }
+    ]
+   },
+   {
+    "sequence": 50,
+    "name": "Pelihara SJPH, laporkan perubahan bahan/fasilitas",
+    "party": "halal",
+    "duration_days": 0,
+    "instructions": "Jalankan audit internal berkala dan laporkan perubahan bahan atau fasilitas ke BPJPH.",
+    "deliverable": "",
+    "regulations": [
+     "PP_42_2024",
+     "UU_JPH",
+     "UU_CIPTAKER"
+    ],
+    "docs": []
+   }
+  ]
+ },
+ {
+  "code": "NONHALAL",
+  "name": "Keterangan tidak halal & pemisahan produk non-halal",
+  "sequence": 42,
+  "authority": "BPJPH (pengawasan)",
+  "system": "–",
+  "party": "halal",
+  "scope": "product",
+  "lead_days": 3,
+  "validity_months": 0,
+  "legal_basis": "UU 33/2014 jo. UU 6/2023 (produk dari bahan yang diharamkan wajib mencantumkan keterangan tidak halal); PP 42/2024.",
+  "description": "Untuk daging babi dan olahannya: label 'tidak halal', penyimpanan, alat dan pengiriman terpisah.\n\nKapan diperlukan: untuk setiap item babi dan olahannya, serta produk lain yang mengandung bahan tidak halal.\nHasil: label dengan keterangan tidak halal dan bukti pemisahan penyimpanan, alat dan pengiriman.\nPerhatian: pemisahan harus nyata di gudang, alat potong, kendaraan dan pencatatan stok.",
+  "regulations": [
+   "UU_JPH",
+   "PP_42_2024",
+   "PERBPOM_LABEL"
+  ],
+  "steps": [
+   {
+    "sequence": 10,
+    "name": "Tandai item sebagai non-halal di master barang",
+    "party": "halal",
+    "duration_days": 1,
+    "instructions": "Pastikan item bertanda Non-halal di menu Item code & template izin; perbaiki item master bila belum.",
+    "deliverable": "",
+    "regulations": [
+     "UU_JPH",
+     "PP_42_2024",
+     "PERBPOM_LABEL"
+    ],
+    "docs": []
+   },
+   {
+    "sequence": 20,
+    "name": "Pastikan keterangan tidak halal pada label/stiker",
+    "party": "halal",
+    "duration_days": 1,
+    "instructions": "Foto label/stiker yang memuat keterangan tidak halal dan unggah untuk diverifikasi.",
+    "deliverable": "Foto label",
+    "regulations": [
+     "UU_JPH",
+     "PP_42_2024",
+     "PERBPOM_LABEL"
+    ],
+    "docs": [
+     {
+      "name": "Foto label",
+      "check_expiry": false,
+      "criteria": "Stiker terbaca dan menempel rapi\nIsi stiker sama dengan rancangan disetujui",
+      "verifier": "halal"
+     }
+    ]
+   },
+   {
+    "sequence": 30,
+    "name": "Verifikasi pemisahan gudang, alat potong dan pengiriman",
+    "party": "halal",
+    "duration_days": 1,
+    "instructions": "Isi checklist pemisahan (area gudang, rak, alat potong, kemasan, kendaraan) dan unggah fotonya.",
+    "deliverable": "Checklist pemisahan",
+    "regulations": [
+     "UU_JPH",
+     "PP_42_2024",
+     "PERBPOM_LABEL"
+    ],
+    "docs": [
+     {
+      "name": "Checklist pemisahan",
+      "check_expiry": false,
+      "criteria": "Area simpan non-halal terpisah dan berlabel\nAlat potong/kemas terpisah\nPengiriman tidak dicampur produk halal",
+      "verifier": "halal"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "code": "LARTAS_CHECK",
+  "name": "Cek HS dan lartas di INSW",
+  "sequence": 50,
+  "authority": "LNSW",
+  "system": "INSW",
+  "party": "impor",
+  "scope": "shipment",
+  "lead_days": 1,
+  "validity_months": 0,
+  "legal_basis": "Permendag 16/2025; PMK tentang Penetapan Sistem Klasifikasi Barang dan Pembebanan Tarif Bea Masuk (BTKI).",
+  "description": "Memastikan izin yang ditempelkan template sesuai dengan lartas HS terbaru.\n\nKapan diperlukan: untuk setiap pengapalan, sebelum mengajukan PI dan PIB.\nHasil: daftar lartas border dan post-border per HS yang dipakai untuk memastikan template izin sesuai.\nPerhatian: ketentuan lartas dapat berubah; jangan mengandalkan hasil cek pengapalan sebelumnya.",
+  "regulations": [
+   "PERMENDAG_16_2025",
+   "PMK_BTKI"
+  ],
+  "steps": [
+   {
+    "sequence": 10,
+    "name": "Konfirmasi HS 8 digit tiap item di invoice",
+    "party": "impor",
+    "duration_days": 1,
+    "instructions": "Cocokkan HS 8 digit pada invoice dengan HS di item master; catat perbedaan.",
+    "deliverable": "",
+    "regulations": [
+     "PMK_BTKI"
+    ],
+    "docs": []
+   },
+   {
+    "sequence": 20,
+    "name": "Cek lartas border/post-border tiap HS di INSW",
+    "party": "impor",
+    "duration_days": 1,
+    "instructions": "Cari setiap HS di INSW dan unggah hasilnya.",
+    "deliverable": "Hasil cek INSW",
+    "regulations": [
+     "PERMENDAG_16_2025",
+     "PMK_BTKI"
+    ],
+    "docs": [
+     {
+      "name": "Hasil cek INSW",
+      "check_expiry": false,
+      "criteria": "Semua HS item sudah dicek\nDaftar lartas border/post-border tercatat",
+      "verifier": "impor"
+     }
+    ]
+   },
+   {
+    "sequence": 30,
+    "name": "Laporkan bila izin di template berbeda dengan INSW",
+    "party": "impor",
+    "duration_days": 0,
+    "instructions": "Perbarui template barang di menu Konfigurasi bila perlu. Kirim memo ke manajer bila izin di template tidak sama dengan hasil INSW, agar template diperbarui.",
+    "deliverable": "",
+    "regulations": [
+     "PERMENDAG_16_2025",
+     "PMK_BTKI"
+    ],
+    "docs": []
+   }
+  ]
+ },
+ {
+  "code": "SKI_BPOM",
+  "name": "SKI BPOM (border/post-border) per pengapalan",
+  "sequence": 51,
+  "authority": "BPOM",
+  "system": "e-BPOM / SINSW",
+  "party": "pangan",
+  "scope": "shipment",
+  "lead_days": 5,
+  "validity_months": 0,
+  "legal_basis": "Peraturan BPOM 28/2023 tentang Pengawasan Pemasukan Obat dan Makanan ke Wilayah Indonesia (jo. perubahannya).",
+  "description": "Surat Keterangan Impor untuk setiap pengapalan pangan olahan ber-NIE ML.\n\nKapan diperlukan: setiap pengapalan pangan olahan yang memiliki NIE ML.\nHasil: Surat Keterangan Impor yang dicantumkan pada PIB.\nPerhatian: SKI diajukan per NIE dan per pengapalan; data lot dan jumlah harus sesuai invoice.",
+  "regulations": [
+   "PERBPOM_28_2023",
+   "UU_PANGAN"
+  ],
+  "steps": [
+   {
+    "sequence": 10,
+    "name": "Terima invoice, packing list, CoA per lot dan health certificate",
+    "party": "purchasing",
+    "duration_days": 1,
+    "instructions": "Purchasing meneruskan invoice, packing list, CoA per lot dan health certificate dari prinsipal begitu diterima.",
+    "deliverable": "",
+    "regulations": [
+     "PERBPOM_28_2023",
+     "UU_PANGAN"
+    ],
+    "docs": []
+   },
+   {
+    "sequence": 20,
+    "name": "Ajukan SKI per NIE di e-BPOM/SINSW",
+    "party": "pangan",
+    "duration_days": 1,
+    "instructions": "Ajukan SKI di e-BPOM/SINSW untuk setiap NIE pada pengapalan dan unggah bukti pengajuan.",
+    "deliverable": "Bukti pengajuan",
+    "regulations": [
+     "PERBPOM_28_2023",
+     "UU_PANGAN"
+    ],
+    "docs": [
+     {
+      "name": "Bukti pengajuan",
+      "check_expiry": false,
+      "criteria": "Nomor transaksi/aju terbaca\nNilai dan tanggal sesuai",
+      "verifier": "pangan"
+     }
+    ]
+   },
+   {
+    "sequence": 30,
+    "name": "Pantau persetujuan SKI",
+    "party": "pangan",
+    "duration_days": 2,
+    "instructions": "Pantau persetujuan; tanggapi permintaan data tambahan.",
+    "deliverable": "",
+    "regulations": [
+     "PERBPOM_28_2023",
+     "UU_PANGAN"
+    ],
+    "docs": []
+   },
+   {
+    "sequence": 40,
+    "name": "Kirim nomor SKI ke bagian impor untuk PIB",
+    "party": "pangan",
+    "duration_days": 1,
+    "instructions": "Unggah SKI dan kirim nomornya ke bagian Impor lewat ruang diskusi pengapalan.",
+    "deliverable": "SKI",
+    "regulations": [
+     "PERBPOM_28_2023",
+     "UU_PANGAN"
+    ],
+    "docs": [
+     {
+      "name": "SKI",
+      "check_expiry": false,
+      "criteria": "Nomor dan tanggal terbit terbaca\nItem/HS, volume dan negara asal sesuai rencana impor",
+      "verifier": "pangan"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "code": "LABEL_ID",
+  "name": "Pelabelan Bahasa Indonesia sebelum edar",
+  "sequence": 52,
+  "authority": "BPOM (pengawasan)",
+  "system": "–",
+  "party": "pangan",
+  "scope": "shipment",
+  "lead_days": 3,
+  "validity_months": 0,
+  "legal_basis": "UU 18/2012 Pangan; PP 86/2019; Per BPOM 31/2018 jo. 20/2021 tentang Label Pangan Olahan.",
+  "description": "Stiker label sesuai rancangan yang disetujui saat registrasi.\n\nKapan diperlukan: setiap pengapalan pangan olahan atau PSAT, sebelum barang dijual.\nHasil: stiker label Bahasa Indonesia terpasang sesuai rancangan yang disetujui.\nPerhatian: isi stiker (nama, komposisi, NIE, importir, halal/tidak halal) harus sama persis dengan rancangan.",
+  "regulations": [
+   "PERBPOM_LABEL",
+   "PP_86_2019",
+   "UU_PANGAN"
+  ],
+  "steps": [
+   {
+    "sequence": 10,
+    "name": "Cetak stiker label sesuai rancangan yang disetujui",
+    "party": "pangan",
+    "duration_days": 2,
+    "instructions": "Cetak stiker berdasarkan rancangan label terverifikasi; periksa nomor NIE dan tanggal kedaluwarsa.",
+    "deliverable": "",
+    "regulations": [
+     "PERBPOM_LABEL",
+     "PP_86_2019",
+     "UU_PANGAN"
+    ],
+    "docs": []
+   },
+   {
+    "sequence": 20,
+    "name": "Tempel dan verifikasi sampel sebelum dirilis ke gudang jual",
+    "party": "pangan",
+    "duration_days": 1,
+    "instructions": "Tempel pada sampel, foto dan unggah sebelum barang dirilis ke gudang jual.",
+    "deliverable": "Foto label",
+    "regulations": [
+     "PERBPOM_LABEL",
+     "PP_86_2019",
+     "UU_PANGAN"
+    ],
+    "docs": [
+     {
+      "name": "Foto label",
+      "check_expiry": false,
+      "criteria": "Stiker terbaca dan menempel rapi\nIsi stiker sama dengan rancangan disetujui",
+      "verifier": "pangan"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "code": "QUARANTINE_ANIMAL",
+  "name": "Karantina hewan (produk hewan)",
+  "sequence": 60,
+  "authority": "Badan Karantina Indonesia (Barantin)",
+  "system": "Best Trust / PTK Online",
+  "party": "perizinan",
+  "scope": "shipment",
+  "lead_days": 3,
+  "validity_months": 0,
+  "legal_basis": "UU 21/2019 Karantina Hewan, Ikan, dan Tumbuhan; PP 29/2023 Peraturan Pelaksanaan UU 21/2019; Perpres 45/2023 Badan Karantina Indonesia.",
+  "description": "Sertifikat kesehatan veteriner negara asal, pemeriksaan dokumen/fisik/lab, sertifikat pelepasan.\n\nKapan diperlukan: setiap pengapalan produk hewan.\nHasil: sertifikat pelepasan karantina yang diperlukan untuk PIB/pengeluaran barang.\nPerhatian: health certificate harus asli, sesuai nomor kontainer/segel, unit usaha dan jumlah barang.",
+  "regulations": [
+   "UU_KARANTINA",
+   "PP_29_2023",
+   "PERPRES_45_2023",
+   "PERMENTAN_42_2019"
+  ],
+  "steps": [
+   {
+    "sequence": 10,
+    "name": "Pastikan veterinary health certificate dan sertifikat halal penyembelihan asli dari negara asal",
+    "party": "purchasing",
+    "duration_days": 3,
+    "instructions": "Purchasing memastikan prinsipal menerbitkan veterinary health certificate dan sertifikat halal penyembelihan, lalu mengunggah salinannya sebelum kapal tiba.",
+    "deliverable": "Health certificate",
+    "regulations": [
+     "UU_KARANTINA",
+     "PERMENTAN_42_2019",
+     "PP_42_2024"
+    ],
+    "docs": [
+     {
+      "name": "Health certificate",
+      "check_expiry": false,
+      "criteria": "Asli dan ditandatangani otoritas veteriner/kompeten negara asal\nNomor establishment sesuai daftar yang disetujui\nProduk, jumlah karton dan berat sesuai packing list\nTanggal produksi/penyembelihan tercantum",
+      "verifier": "perizinan"
+     }
+    ]
+   },
+   {
+    "sequence": 20,
+    "name": "Laporkan rencana pemasukan sebelum barang tiba",
+    "party": "perizinan",
+    "duration_days": 1,
+    "instructions": "Bagian Perizinan melaporkan rencana pemasukan ke Barantin sebelum barang tiba dan mencatat nomor permohonan.",
+    "deliverable": "Nomor permohonan",
+    "regulations": [
+     "UU_KARANTINA",
+     "PP_29_2023",
+     "PERPRES_45_2023",
+     "PERMENTAN_42_2019"
+    ],
+    "docs": [
+     {
+      "name": "Nomor permohonan",
+      "check_expiry": false,
+      "criteria": "File terbaca jelas dan lengkap semua halaman\nNama perusahaan, produk/item code sesuai pengurusan",
+      "verifier": "perizinan"
+     }
+    ]
+   },
+   {
+    "sequence": 30,
+    "name": "Dampingi pemeriksaan dokumen/fisik/uji lab",
+    "party": "perizinan",
+    "duration_days": 2,
+    "instructions": "Dampingi pemeriksaan dokumen, fisik dan pengambilan sampel; catat hasilnya.",
+    "deliverable": "",
+    "regulations": [
+     "UU_KARANTINA",
+     "PP_29_2023",
+     "PERPRES_45_2023",
+     "PERMENTAN_42_2019"
+    ],
+    "docs": []
+   },
+   {
+    "sequence": 40,
+    "name": "Terima sertifikat pelepasan karantina dan kirim ke bagian impor",
+    "party": "perizinan",
+    "duration_days": 1,
+    "instructions": "Unggah sertifikat pelepasan dan kabari bagian Impor lewat ruang diskusi pengapalan.",
+    "deliverable": "Sertifikat pelepasan",
+    "regulations": [
+     "UU_KARANTINA",
+     "PP_29_2023",
+     "PERPRES_45_2023",
+     "PERMENTAN_42_2019"
+    ],
+    "docs": [
+     {
+      "name": "Sertifikat pelepasan",
+      "check_expiry": false,
+      "criteria": "Nomor dan tanggal terbit terbaca\nItem/HS, volume dan negara asal sesuai rencana impor",
+      "verifier": "perizinan"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "code": "QUARANTINE_FISH",
+  "name": "Karantina ikan",
+  "sequence": 61,
+  "authority": "Badan Karantina Indonesia (Barantin)",
+  "system": "Best Trust / PTK Online",
+  "party": "perizinan",
+  "scope": "shipment",
+  "lead_days": 3,
+  "validity_months": 0,
+  "legal_basis": "UU 21/2019; PP 29/2023; Perpres 45/2023.",
+  "description": "Health certificate ikan dari otoritas negara asal, pemeriksaan dan pelepasan karantina.\n\nKapan diperlukan: setiap pengapalan ikan, krustasea dan moluska.\nHasil: sertifikat pelepasan karantina ikan.\nPerhatian: health certificate harus diterbitkan otoritas kompeten negara asal dan sesuai isi kontainer.",
+  "regulations": [
+   "UU_KARANTINA",
+   "PP_29_2023",
+   "PERPRES_45_2023"
+  ],
+  "steps": [
+   {
+    "sequence": 10,
+    "name": "Pastikan health certificate ikan asli dari negara asal",
+    "party": "purchasing",
+    "duration_days": 3,
+    "instructions": "Purchasing memastikan health certificate dari otoritas negara asal sudah terbit dan mengunggah salinannya.",
+    "deliverable": "Health certificate",
+    "regulations": [
+     "UU_KARANTINA",
+     "PP_29_2023",
+     "PERPRES_45_2023"
+    ],
+    "docs": [
+     {
+      "name": "Health certificate",
+      "check_expiry": false,
+      "criteria": "Asli dan ditandatangani otoritas veteriner/kompeten negara asal\nNomor establishment sesuai daftar yang disetujui\nProduk, jumlah karton dan berat sesuai packing list\nTanggal produksi/penyembelihan tercantum",
+      "verifier": "perizinan"
+     }
+    ]
+   },
+   {
+    "sequence": 20,
+    "name": "Laporkan rencana pemasukan sebelum barang tiba",
+    "party": "perizinan",
+    "duration_days": 1,
+    "instructions": "Laporkan rencana pemasukan ke Barantin sebelum barang tiba.",
+    "deliverable": "",
+    "regulations": [
+     "UU_KARANTINA",
+     "PP_29_2023",
+     "PERPRES_45_2023"
+    ],
+    "docs": []
+   },
+   {
+    "sequence": 30,
+    "name": "Dampingi pemeriksaan dokumen/fisik/uji lab",
+    "party": "perizinan",
+    "duration_days": 2,
+    "instructions": "Dampingi pemeriksaan dan pengambilan sampel; catat hasilnya.",
+    "deliverable": "",
+    "regulations": [
+     "UU_KARANTINA",
+     "PP_29_2023",
+     "PERPRES_45_2023"
+    ],
+    "docs": []
+   },
+   {
+    "sequence": 40,
+    "name": "Terima sertifikat pelepasan karantina dan kirim ke bagian impor",
+    "party": "perizinan",
+    "duration_days": 1,
+    "instructions": "Unggah sertifikat pelepasan dan kabari bagian Impor.",
+    "deliverable": "Sertifikat pelepasan",
+    "regulations": [
+     "UU_KARANTINA",
+     "PP_29_2023",
+     "PERPRES_45_2023"
+    ],
+    "docs": [
+     {
+      "name": "Sertifikat pelepasan",
+      "check_expiry": false,
+      "criteria": "Nomor dan tanggal terbit terbaca\nItem/HS, volume dan negara asal sesuai rencana impor",
+      "verifier": "perizinan"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "code": "QUARANTINE_PLANT",
+  "name": "Karantina tumbuhan",
+  "sequence": 62,
+  "authority": "Badan Karantina Indonesia (Barantin)",
+  "system": "Best Trust / PTK Online",
+  "party": "perizinan",
+  "scope": "shipment",
+  "lead_days": 3,
+  "validity_months": 0,
+  "legal_basis": "UU 21/2019; PP 29/2023; Perpres 45/2023.",
+  "description": "Phytosanitary certificate negara asal untuk sayur/buah segar atau beku.\n\nKapan diperlukan: setiap pengapalan sayur/buah segar atau beku.\nHasil: sertifikat pelepasan karantina tumbuhan.\nPerhatian: phytosanitary certificate harus sesuai jenis, jumlah dan negara asal pada invoice.",
+  "regulations": [
+   "UU_KARANTINA",
+   "PP_29_2023",
+   "PERPRES_45_2023"
+  ],
+  "steps": [
+   {
+    "sequence": 10,
+    "name": "Pastikan phytosanitary certificate asli dari negara asal",
+    "party": "purchasing",
+    "duration_days": 3,
+    "instructions": "Purchasing memastikan phytosanitary certificate asli dari negara asal dan mengunggah salinannya.",
+    "deliverable": "Phytosanitary",
+    "regulations": [
+     "UU_KARANTINA",
+     "PP_29_2023",
+     "PERPRES_45_2023"
+    ],
+    "docs": [
+     {
+      "name": "Phytosanitary",
+      "check_expiry": false,
+      "criteria": "Diterbitkan NPPO negara asal\nProduk dan jumlah sesuai packing list\nBebas OPTK sesuai pernyataan tambahan",
+      "verifier": "perizinan"
+     }
+    ]
+   },
+   {
+    "sequence": 20,
+    "name": "Laporkan rencana pemasukan sebelum barang tiba",
+    "party": "perizinan",
+    "duration_days": 1,
+    "instructions": "Laporkan rencana pemasukan ke Barantin sebelum barang tiba.",
+    "deliverable": "",
+    "regulations": [
+     "UU_KARANTINA",
+     "PP_29_2023",
+     "PERPRES_45_2023"
+    ],
+    "docs": []
+   },
+   {
+    "sequence": 30,
+    "name": "Dampingi pemeriksaan dan terima pelepasan karantina",
+    "party": "perizinan",
+    "duration_days": 2,
+    "instructions": "Dampingi pemeriksaan, lalu unggah sertifikat pelepasan dan kabari bagian Impor.",
+    "deliverable": "Sertifikat pelepasan",
+    "regulations": [
+     "UU_KARANTINA",
+     "PP_29_2023",
+     "PERPRES_45_2023"
+    ],
+    "docs": [
+     {
+      "name": "Sertifikat pelepasan",
+      "check_expiry": false,
+      "criteria": "Nomor dan tanggal terbit terbaca\nItem/HS, volume dan negara asal sesuai rencana impor",
+      "verifier": "perizinan"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "code": "COO",
+  "name": "Surat Keterangan Asal (SKA/CoO) untuk tarif preferensi",
+  "sequence": 70,
+  "authority": "Otoritas negara asal / DJBC",
+  "system": "e-SKA / CEISA",
+  "party": "purchasing",
+  "scope": "shipment",
+  "lead_days": 3,
+  "validity_months": 0,
+  "legal_basis": "PMK tentang tata cara pengenaan tarif bea masuk dalam rangka perjanjian internasional (AANZFTA, IA-CEPA, IJEPA, ACFTA, AKFTA, RCEP, dll.).",
+  "description": "Tidak wajib, tetapi tanpa SKA tarif preferensi tidak bisa dipakai.\n\nKapan diperlukan: bila ingin memakai tarif bea masuk preferensi perjanjian dagang (mis. IA-CEPA, AANZFTA, ACFTA).\nHasil: SKA/Certificate of Origin yang dilampirkan pada PIB.\nPerhatian: SKA yang salah format atau terlambat membuat tarif preferensi gugur dan bea masuk dihitung normal.",
+  "regulations": [
+   "PMK_FTA",
+   "UU_PABEAN"
+  ],
+  "steps": [
+   {
+    "sequence": 10,
+    "name": "Minta SKA/CoO ke eksportir sebelum kapal berangkat",
+    "party": "purchasing",
+    "duration_days": 3,
+    "instructions": "Purchasing meminta SKA/CoO sesuai skema perjanjian dagang sebelum kapal berangkat dan mengunggah salinannya.",
+    "deliverable": "SKA",
+    "regulations": [
+     "PMK_FTA"
+    ],
+    "docs": [
+     {
+      "name": "SKA",
+      "check_expiry": true,
+      "criteria": "Form sesuai perjanjian (mis. AANZFTA Form AANZ)\nHS dan uraian barang sama dengan invoice\nDitandatangani otoritas penerbit",
+      "verifier": "purchasing"
+     }
+    ]
+   },
+   {
+    "sequence": 20,
+    "name": "Cek kesesuaian SKA dengan invoice dan HS",
+    "party": "impor",
+    "duration_days": 1,
+    "instructions": "Bagian Impor mencocokkan HS, uraian barang, jumlah dan nomor invoice pada SKA.",
+    "deliverable": "",
+    "regulations": [
+     "PMK_FTA",
+     "UU_PABEAN"
+    ],
+    "docs": []
+   }
+  ]
+ },
+ {
+  "code": "CUSTOMS_PIB",
+  "name": "PIB (BC 2.0), pembayaran BM/PDRI dan SPPB",
+  "sequence": 80,
+  "authority": "DJBC",
+  "system": "CEISA",
+  "party": "impor",
+  "scope": "shipment",
+  "lead_days": 3,
+  "validity_months": 0,
+  "legal_basis": "UU 10/1995 jo. UU 17/2006 Kepabeanan; PMK tentang Ketentuan Kepabeanan di Bidang Impor (cek versi terbaru); ketentuan PPN dan PPh Pasal 22 impor.",
+  "description": "Dokumen pemberitahuan impor setelah semua lartas terpenuhi. Barang keluar setelah SPPB.\n\nKapan diperlukan: setiap pengapalan, setelah semua lartas terpenuhi.\nHasil: PIB (BC 2.0) dengan bukti bayar dan SPPB untuk mengeluarkan barang dari pelabuhan.\nPerhatian: keterlambatan dokumen memicu biaya penumpukan dan demurrage kontainer reefer.",
+  "regulations": [
+   "UU_PABEAN",
+   "PMK_IMPOR",
+   "PERMENDAG_16_2025"
+  ],
+  "steps": [
+   {
+    "sequence": 10,
+    "name": "Pastikan prinsipal mengirim dokumen pengapalan asli (invoice, packing list, B/L-AWB, SKA, health certificate)",
+    "party": "purchasing",
+    "duration_days": 2,
+    "instructions": "Purchasing memastikan prinsipal mengirim dokumen pengapalan asli dan mengunggah salinannya sebelum kapal tiba.",
+    "deliverable": "Dokumen asli",
+    "regulations": [
+     "UU_PABEAN",
+     "PMK_IMPOR",
+     "PERMENDAG_16_2025"
+    ],
+    "docs": [
+     {
+      "name": "Dokumen asli",
+      "check_expiry": false,
+      "criteria": "Invoice, packing list dan B/L/AWB asli diterima\nNama barang dan HS sama di semua dokumen",
+      "verifier": "impor"
+     }
+    ]
+   },
+   {
+    "sequence": 20,
+    "name": "Kumpulkan dokumen PIB: invoice, packing list, B/L-AWB, polis asuransi, SKA, PI, SKI, sertifikat karantina",
+    "party": "impor",
+    "duration_days": 1,
+    "instructions": "Bagian Impor mengumpulkan semua dokumen PIB lewat tombol Dokumen pada pengapalan.",
+    "deliverable": "",
+    "regulations": [
+     "PERMENDAG_16_2025",
+     "PERBPOM_28_2023",
+     "UU_KARANTINA"
+    ],
+    "docs": []
+   },
+   {
+    "sequence": 30,
+    "name": "Hitung dan bayar BM, PPN, PPh 22 lewat billing",
+    "party": "impor",
+    "duration_days": 1,
+    "instructions": "Hitung bea masuk dan pajak impor, terbitkan billing, bayar dan unggah bukti bayar.",
+    "deliverable": "Bukti bayar",
+    "regulations": [
+     "PMK_IMPOR",
+     "UU_PABEAN"
+    ],
+    "docs": [
+     {
+      "name": "Bukti bayar",
+      "check_expiry": false,
+      "criteria": "Nomor transaksi/aju terbaca\nNilai dan tanggal sesuai",
+      "verifier": "impor"
+     }
+    ]
+   },
+   {
+    "sequence": 40,
+    "name": "Kirim PIB BC 2.0 lewat CEISA/PPJK",
+    "party": "impor",
+    "duration_days": 1,
+    "instructions": "Kirim PIB lewat CEISA atau PPJK dan catat nomor aju.",
+    "deliverable": "Nomor aju PIB",
+    "regulations": [
+     "UU_PABEAN",
+     "PMK_IMPOR",
+     "PERMENDAG_16_2025"
+    ],
+    "docs": [
+     {
+      "name": "Nomor aju PIB",
+      "check_expiry": false,
+      "criteria": "File terbaca jelas dan lengkap semua halaman\nNama perusahaan, produk/item code sesuai pengurusan",
+      "verifier": "impor"
+     }
+    ]
+   },
+   {
+    "sequence": 50,
+    "name": "Tangani jalur merah/kuning dan SPTNP bila ada",
+    "party": "impor",
+    "duration_days": 3,
+    "instructions": "Bila jalur merah/kuning, siapkan dokumen tambahan dan dampingi pemeriksaan fisik.",
+    "deliverable": "",
+    "regulations": [
+     "UU_PABEAN",
+     "PMK_IMPOR",
+     "PERMENDAG_16_2025"
+    ],
+    "docs": []
+   },
+   {
+    "sequence": 60,
+    "name": "Terima SPPB, keluarkan kontainer reefer ke gudang",
+    "party": "impor",
+    "duration_days": 1,
+    "instructions": "Unggah SPPB, atur pengeluaran kontainer ke gudang, lalu tekan Barang keluar pada pengapalan.",
+    "deliverable": "SPPB",
+    "regulations": [
+     "UU_PABEAN",
+     "PMK_IMPOR",
+     "PERMENDAG_16_2025"
+    ],
+    "docs": [
+     {
+      "name": "SPPB",
+      "check_expiry": false,
+      "criteria": "Nomor SPPB dan tanggal terbaca\nNomor kontainer sesuai B/L",
+      "verifier": "impor"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "code": "MD_BPOM",
+  "name": "Izin edar pangan olahan MD (produksi dalam negeri)",
+  "sequence": 31,
+  "authority": "BPOM",
+  "system": "e-Registration BPOM",
+  "party": "pangan",
+  "scope": "product",
+  "lead_days": 45,
+  "validity_months": 60,
+  "legal_basis": "UU 18/2012 Pangan; PP 86/2019 Keamanan Pangan; Peraturan BPOM tentang Pendaftaran Pangan Olahan; Per BPOM 31/2018 jo. 20/2021 Label Pangan Olahan.",
+  "description": "Untuk pangan olahan produksi dalam negeri. Bila diproduksi/dikemas oleh Indoguna dengan merek sendiri, Indoguna mendaftarkan MD; bila dibeli dari produsen lokal, cukup verifikasi nomor MD pemasok.\n\nKapan diperlukan: untuk pangan olahan produksi dalam negeri yang dijual Indoguna.\nHasil: NIE MD milik Indoguna (bila diproduksi/dikemas sendiri) atau bukti verifikasi NIE MD pemasok.\nPerhatian: produk yang diproduksi pihak lain dengan merek Indoguna tetap memerlukan izin edar yang sesuai.",
+  "regulations": [
+   "PERBPOM_REG",
+   "PERBPOM_LABEL",
+   "PP_86_2019",
+   "UU_PANGAN"
+  ],
+  "steps": [
+   {
+    "sequence": 10,
+    "name": "Tentukan: produksi sendiri (daftar MD) atau produk pemasok (verifikasi MD)",
+    "party": "pangan",
+    "duration_days": 1,
+    "instructions": "Tentukan apakah produk dibuat/dikemas Indoguna (daftar MD sendiri) atau dibeli jadi dari pemasok (cukup verifikasi nomor MD pemasok di cekbpom).",
+    "deliverable": "",
+    "regulations": [
+     "PERBPOM_REG",
+     "PERBPOM_LABEL",
+     "PP_86_2019",
+     "UU_PANGAN"
+    ],
+    "docs": []
+   },
+   {
+    "sequence": 20,
+    "name": "Siapkan izin usaha industri, hasil pemeriksaan sarana/CPPOB, komposisi, proses dan rancangan label",
+    "party": "pangan",
+    "duration_days": 10,
+    "instructions": "Siapkan izin usaha industri, hasil pemeriksaan sarana/CPPOB, komposisi, alur proses dan rancangan label.",
+    "deliverable": "Rancangan label",
+    "regulations": [
+     "PERBPOM_REG",
+     "PERBPOM_LABEL",
+     "PP_86_2019",
+     "UU_PANGAN"
+    ],
+    "docs": [
+     {
+      "name": "Rancangan label",
+      "check_expiry": false,
+      "criteria": "Nama produk, komposisi, berat bersih, negara asal\nNama dan alamat importir (Indoguna)\nTanggal kedaluwarsa dan kode produksi\nLogo halal Indonesia atau keterangan tidak halal sesuai status produk",
+      "verifier": "pangan"
+     }
+    ]
+   },
+   {
+    "sequence": 30,
+    "name": "Ajukan MD di e-Registration BPOM dan bayar PNBP",
+    "party": "pangan",
+    "duration_days": 1,
+    "instructions": "Ajukan di e-Registration BPOM, bayar PNBP dan unggah bukti bayar.",
+    "deliverable": "Bukti bayar",
+    "regulations": [
+     "PERBPOM_REG",
+     "PERBPOM_LABEL",
+     "PP_86_2019",
+     "UU_PANGAN"
+    ],
+    "docs": [
+     {
+      "name": "Bukti bayar",
+      "check_expiry": false,
+      "criteria": "Nomor transaksi/aju terbaca\nNilai dan tanggal sesuai",
+      "verifier": "pangan"
+     }
+    ]
+   },
+   {
+    "sequence": 40,
+    "name": "Tanggapi evaluasi dan unduh NIE MD",
+    "party": "pangan",
+    "duration_days": 25,
+    "instructions": "Tanggapi evaluasi, lalu unggah NIE MD dan catat masa berlakunya.",
+    "deliverable": "NIE MD",
+    "regulations": [
+     "PERBPOM_REG",
+     "PERBPOM_LABEL",
+     "PP_86_2019",
+     "UU_PANGAN"
+    ],
+    "docs": [
+     {
+      "name": "NIE MD",
+      "check_expiry": true,
+      "criteria": "Nomor dan tanggal terbit terbaca\nItem/HS, volume dan negara asal sesuai rencana impor\nMasa berlaku mencakup ETA pengapalan",
+      "verifier": "pangan"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "code": "LOCAL_SUPPLIER",
+  "name": "Verifikasi legalitas produk & pemasok lokal",
+  "sequence": 90,
+  "authority": "Internal",
+  "system": "Cek BPOM / SIHALAL",
+  "party": "purchasing",
+  "scope": "product",
+  "lead_days": 7,
+  "validity_months": 12,
+  "legal_basis": "UU 18/2012 Pangan; UU 33/2014 jo. UU 6/2023; PP 42/2024.",
+  "description": "Untuk item asal Indonesia: izin edar MD/PIRT atau PSAT, sertifikat halal, NKV pemasok produk hewan.\n\nKapan diperlukan: untuk setiap pemasok lokal baru dan saat izin pemasok mendekati masa berlaku.\nHasil: berkas legalitas pemasok lokal (NIB, izin edar, halal, NKV) yang tersimpan dengan masa berlaku.\nPerhatian: verifikasi keaslian di sistem resmi, jangan hanya dari salinan dokumen.",
+  "regulations": [
+   "UU_PANGAN",
+   "UU_JPH",
+   "PP_42_2024"
+  ],
+  "steps": [
+   {
+    "sequence": 10,
+    "name": "Minta NIB, izin edar MD/PIRT/PSAT, sertifikat halal dan NKV pemasok",
+    "party": "purchasing",
+    "duration_days": 5,
+    "instructions": "Purchasing meminta NIB, izin edar MD/PIRT/PSAT, sertifikat halal dan NKV (untuk produk hewan) dari pemasok.",
+    "deliverable": "",
+    "regulations": [
+     "UU_PANGAN",
+     "UU_JPH",
+     "PP_42_2024"
+    ],
+    "docs": []
+   },
+   {
+    "sequence": 20,
+    "name": "Verifikasi sertifikat halal di SIHALAL dan izin edar di cekbpom",
+    "party": "halal",
+    "duration_days": 1,
+    "instructions": "Bagian Halal memverifikasi sertifikat halal di SIHALAL dan izin edar di cekbpom; unggah hasil pengecekan.",
+    "deliverable": "",
+    "regulations": [
+     "UU_JPH",
+     "UU_PANGAN"
+    ],
+    "docs": []
+   },
+   {
+    "sequence": 30,
+    "name": "Simpan dokumen dan catat masa berlaku",
+    "party": "purchasing",
+    "duration_days": 1,
+    "instructions": "Simpan semua dokumen dan isi masa berlaku agar pengingat perpanjangan berjalan.",
+    "deliverable": "",
+    "regulations": [
+     "UU_PANGAN",
+     "UU_JPH",
+     "PP_42_2024"
+    ],
+    "docs": []
+   }
+  ]
+ }
+]
