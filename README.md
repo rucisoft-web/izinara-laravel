@@ -16,7 +16,7 @@ Dibangun dengan **Laravel 12 + MySQL**, tanpa build step front-end, sehingga bis
 - **Register izin** dengan pemicu proyek perpanjangan.
 - **Sertifikasi halal**: proyek registrasi SHLN dan sertifikasi halal BPJPH.
 - **Halaman informasi** (landing page) untuk pengguna internal, **tombol Bantuan** di setiap layar dan **Panduan** lengkap dengan tangkapan layar.
-- **Data demo PT Indoguna Utama**: 18 proyek (3 per kelompok izin), lampiran contoh, diskusi, memo, register izin.
+- **Data demo**: 18 proyek (3 per kelompok izin), lampiran contoh, diskusi, memo, register izin.
 
 ## Instalasi
 
@@ -41,7 +41,7 @@ php artisan serve
 | `app/Services/Forecaster.php` | Faktor keterlambatan, proyeksi P50/P80, beban kerja |
 | `app/Services/Communication.php` | Komentar, @mention, memo, notifikasi |
 | `database/seeders/MasterDataSeeder.php` | Bagian, peraturan, jenis izin & langkah, kelompok izin |
-| `database/seeders/DemoSeeder.php` | Data demo Indoguna |
+| `database/seeders/DemoSeeder.php` | Data demo |
 | `config/bantuan.php` | Isi tombol Bantuan & halaman Panduan |
 | `tools/screenshot-bantuan.cjs` | Membuat ulang tangkapan layar Panduan (Playwright) |
 

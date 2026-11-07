@@ -6,7 +6,7 @@
 <section class="hero">
   <div class="hero-in">
     <div class="hero-txt">
-      <span class="eyebrow">Aplikasi internal PT Indoguna Utama</span>
+      <span class="eyebrow">Aplikasi internal</span>
       <h1>Izinara: pengurusan izin impor & izin edar pangan</h1>
       <p>Tempat semua bagian (Perizinan, Impor, Purchasing, QA/Pangan, Halal) mencatat dan memantau pengurusan izin sebagai proyek: dari kebutuhan muncul sampai izin terbit. Setiap kegiatan dilengkapi rujukan peraturan perundang-undangan yang berlaku, dokumen wajib, lampiran, dan diskusi antarbagian.</p>
       <div class="hero-cta">
@@ -142,7 +142,7 @@
 <section class="pub-sec alt" id="demo">
   <div class="pub-wrap">
     <h2 class="sec-h">Akun latihan</h2>
-    <p class="sec-lead">Untuk latihan, tersedia data contoh {{ $projectCount }} proyek perizinan Indoguna: tiga proyek per kelompok izin (selesai, berjalan/tertahan, dan rencana yang disalin dari template), lengkap dengan lampiran contoh, diskusi, memo, dan register izin. Kata sandi akun latihan: <code>izinara</code>.</p>
+    <p class="sec-lead">Untuk latihan, tersedia data contoh {{ $projectCount }} proyek perizinan: tiga proyek per kelompok izin (selesai, berjalan/tertahan, dan rencana yang disalin dari template), lengkap dengan lampiran contoh, diskusi, memo, dan register izin. Kata sandi akun latihan: <code>izinara</code>.</p>
     <div class="grid g4 demo-acc">
       <div class="feat small"><h3>sari.manajer</h3><p>Manajer perizinan: membuat proyek, menjadwal, verifikasi.</p></div>
       <div class="feat small"><h3>dewi.izin</h3><p>PIC Perizinan: rekomendasi Kementan & PI Kemendag.</p></div>

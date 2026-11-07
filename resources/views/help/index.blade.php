@@ -3,7 +3,7 @@
 @section('crumb', 'Panduan pengguna')
 @section('content')
 <div class="{{ auth()->check() ? '' : 'pub-wrap' }}">
-<div class="page-head"><div><h1>Panduan pengguna Izinara</h1><p>Penjelasan konsep dan cara mengisi data di setiap layar, lengkap dengan tangkapan layar dari data demo Indoguna. Tombol <b>？ Bantuan</b> di kanan atas setiap layar membuka topik yang sesuai.</p></div></div>
+<div class="page-head"><div><h1>Panduan pengguna Izinara</h1><p>Penjelasan konsep dan cara mengisi data di setiap layar, lengkap dengan tangkapan layar dari data demo. Tombol <b>？ Bantuan</b> di kanan atas setiap layar membuka topik yang sesuai.</p></div></div>
 <div class="help-grid">
 @foreach($cfg['urutan'] as $grp => $keys)
   <div class="card">

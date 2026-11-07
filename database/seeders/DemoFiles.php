@@ -14,7 +14,7 @@ class DemoFiles
     {
         $p = $task?->project;
         return array_values(array_filter([
-            'PT INDOGUNA UTAMA - CONTOH DOKUMEN DEMO',
+            'CONTOH DOKUMEN DEMO - IZINARA',
             $title,
             $p ? 'Proyek: '.$p->code.' - '.$p->name : null,
             $task ? 'Kegiatan: '.$task->wbs.' '.$task->name : null,
@@ -144,7 +144,7 @@ class DemoFiles
         $mut = imagecolorallocate($im, 100, 115, 110);
         imagefilledrectangle($im, 0, 0, 640, 400, $bg);
         imagefilledrectangle($im, 0, 0, 640, 46, $fg);
-        imagestring($im, 5, 16, 15, 'INDOGUNA - CONTOH FOTO / LABEL (DEMO)', imagecolorallocate($im, 255, 255, 255));
+        imagestring($im, 5, 16, 15, 'IZINARA - CONTOH FOTO / LABEL (DEMO)', imagecolorallocate($im, 255, 255, 255));
         imagerectangle($im, 40, 80, 600, 360, $mut);
         $y = 110;
         foreach (str_split(preg_replace('/[^\x20-\x7E]/', '-', $title), 60) as $line) {

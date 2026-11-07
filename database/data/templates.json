@@ -817,7 +817,7 @@
   "name": "Pangan olahan dalam negeri (BPOM MD)",
   "food_group": "md",
   "sequence": 113,
-  "description": "Pangan olahan produksi Indonesia, termasuk produk bermerek Indoguna.",
+  "description": "Pangan olahan produksi Indonesia, termasuk produk bermerek sendiri.",
   "lines": [
    {
     "type": "MD_BPOM",

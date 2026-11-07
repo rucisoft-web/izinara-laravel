@@ -6,7 +6,7 @@ use App\Models\Template;
 use Illuminate\Database\Seeder;
 use Illuminate\Support\Facades\DB;
 
-/** Muat 2.864 item code dari item master Indoguna (pemetaan-item-ke-izin.xlsx, Oktober 2026). */
+/** Muat 2.864 item code dari item master bawaan (pemetaan-item-ke-izin.xlsx, Oktober 2026). */
 class ItemMasterSeeder extends Seeder
 {
     public function run(?array $only = null): void

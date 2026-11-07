@@ -846,7 +846,7 @@
      {
       "name": "Rancangan label",
       "check_expiry": false,
-      "criteria": "Nama produk, komposisi, berat bersih, negara asal\nNama dan alamat importir (Indoguna)\nTanggal kedaluwarsa dan kode produksi\nLogo halal Indonesia atau keterangan tidak halal sesuai status produk",
+      "criteria": "Nama produk, komposisi, berat bersih, negara asal\nNama dan alamat importir\nTanggal kedaluwarsa dan kode produksi\nLogo halal Indonesia atau keterangan tidak halal sesuai status produk",
       "verifier": "pangan"
      }
     ]
@@ -1036,7 +1036,7 @@
   "lead_days": 30,
   "validity_months": 0,
   "legal_basis": "UU 33/2014 jo. UU 6/2023; PP 42/2024.",
-  "description": "Untuk produk yang dipotong, diporsi atau dikemas ulang oleh Indoguna dengan merek/label sendiri.\n\nKapan diperlukan: bila Indoguna memotong, memorsi atau mengemas ulang produk dengan label sendiri.\nHasil: sertifikat halal Indonesia untuk produk dan fasilitas Indoguna.\nPerhatian: perubahan bahan, pemasok atau fasilitas harus dilaporkan dan dapat memerlukan audit ulang.",
+  "description": "Untuk produk yang dipotong, diporsi atau dikemas ulang oleh perusahaan dengan merek/label sendiri.\n\nKapan diperlukan: bila perusahaan memotong, memorsi atau mengemas ulang produk dengan label sendiri.\nHasil: sertifikat halal Indonesia untuk produk dan fasilitas perusahaan.\nPerhatian: perubahan bahan, pemasok atau fasilitas harus dilaporkan dan dapat memerlukan audit ulang.",
   "regulations": [
    "PP_42_2024",
    "UU_JPH",
@@ -1876,7 +1876,7 @@
   "lead_days": 45,
   "validity_months": 60,
   "legal_basis": "UU 18/2012 Pangan; PP 86/2019 Keamanan Pangan; Peraturan BPOM tentang Pendaftaran Pangan Olahan; Per BPOM 31/2018 jo. 20/2021 Label Pangan Olahan.",
-  "description": "Untuk pangan olahan produksi dalam negeri. Bila diproduksi/dikemas oleh Indoguna dengan merek sendiri, Indoguna mendaftarkan MD; bila dibeli dari produsen lokal, cukup verifikasi nomor MD pemasok.\n\nKapan diperlukan: untuk pangan olahan produksi dalam negeri yang dijual Indoguna.\nHasil: NIE MD milik Indoguna (bila diproduksi/dikemas sendiri) atau bukti verifikasi NIE MD pemasok.\nPerhatian: produk yang diproduksi pihak lain dengan merek Indoguna tetap memerlukan izin edar yang sesuai.",
+  "description": "Untuk pangan olahan produksi dalam negeri. Bila diproduksi/dikemas oleh perusahaan dengan merek sendiri, perusahaan mendaftarkan MD; bila dibeli dari produsen lokal, cukup verifikasi nomor MD pemasok.\n\nKapan diperlukan: untuk pangan olahan produksi dalam negeri yang dijual perusahaan.\nHasil: NIE MD milik perusahaan (bila diproduksi/dikemas sendiri) atau bukti verifikasi NIE MD pemasok.\nPerhatian: produk yang diproduksi pihak lain dengan merek perusahaan tetap memerlukan izin edar yang sesuai.",
   "regulations": [
    "PERBPOM_REG",
    "PERBPOM_LABEL",
@@ -1889,7 +1889,7 @@
     "name": "Tentukan: produksi sendiri (daftar MD) atau produk pemasok (verifikasi MD)",
     "party": "pangan",
     "duration_days": 1,
-    "instructions": "Tentukan apakah produk dibuat/dikemas Indoguna (daftar MD sendiri) atau dibeli jadi dari pemasok (cukup verifikasi nomor MD pemasok di cekbpom).",
+    "instructions": "Tentukan apakah produk dibuat/dikemas sendiri (daftar MD sendiri) atau dibeli jadi dari pemasok (cukup verifikasi nomor MD pemasok di cekbpom).",
     "deliverable": "",
     "regulations": [
      "PERBPOM_REG",
@@ -1916,7 +1916,7 @@
      {
       "name": "Rancangan label",
       "check_expiry": false,
-      "criteria": "Nama produk, komposisi, berat bersih, negara asal\nNama dan alamat importir (Indoguna)\nTanggal kedaluwarsa dan kode produksi\nLogo halal Indonesia atau keterangan tidak halal sesuai status produk",
+      "criteria": "Nama produk, komposisi, berat bersih, negara asal\nNama dan alamat importir\nTanggal kedaluwarsa dan kode produksi\nLogo halal Indonesia atau keterangan tidak halal sesuai status produk",
       "verifier": "pangan"
      }
     ]

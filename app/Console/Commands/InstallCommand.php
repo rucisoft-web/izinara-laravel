@@ -7,7 +7,7 @@ use Illuminate\Console\Command;
 
 class InstallCommand extends Command
 {
-    protected $signature = 'izinara:install {--demo : Muat juga data demo Indoguna} {--password= : Kata sandi admin} {--email= : Email admin}';
+    protected $signature = 'izinara:install {--demo : Muat juga data demo} {--password= : Kata sandi admin} {--email= : Email admin}';
     protected $description = 'Pasang Izinara lewat terminal: migrasi, data master, akun admin, (opsional) data demo.';
 
     public function handle(): int

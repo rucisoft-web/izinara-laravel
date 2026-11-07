@@ -27,7 +27,7 @@ Pilih **salah satu** cara:
 ### Cara A (disarankan): subdomain/domain diarahkan ke folder `public`
 1. cPanel → **File Manager** → buka folder home (mis. `/home/akuncpanel`).
 2. Buat folder `izinara`, masuk, **Upload** ZIP, lalu **Extract**.
-3. cPanel → **Domains** (atau **Subdomains**) → buat/ubah domain, mis. `izin.indoguna.co.id`, dan isi **Document Root** = `izinara/public`.
+3. cPanel → **Domains** (atau **Subdomains**) → buat/ubah domain, mis. `izin.perusahaan.co.id`, dan isi **Document Root** = `izinara/public`.
 
 Dengan cara ini file `.env`, `storage/`, dan `vendor/` berada di luar document root.
 
@@ -37,11 +37,11 @@ File `.htaccess` di akar paket meneruskan semua permintaan ke folder `public/` d
 
 ## Langkah 3 — Jalankan wizard instalasi
 
-1. Buka alamat aplikasi di browser, mis. `https://izin.indoguna.co.id`. Anda otomatis diarahkan ke `/install`.
+1. Buka alamat aplikasi di browser, mis. `https://izin.perusahaan.co.id`. Anda otomatis diarahkan ke `/install`.
 2. Pastikan semua pemeriksaan server bertanda ✓.
 3. Isi host database (`localhost`), nama database, pengguna, dan kata sandi dari Langkah 1.
 4. Isi email dan kata sandi **admin** (minimal 8 karakter).
-5. Centang **Muat data demo Indoguna** bila ingin data latihan untuk pengenalan aplikasi ke pengguna (bisa dikosongkan untuk instalasi produksi).
+5. Centang **Muat data demo** bila ingin data latihan untuk pengenalan aplikasi ke pengguna (bisa dikosongkan untuk instalasi produksi).
 6. Klik **Pasang Izinara** dan tunggu 1–2 menit.
 
 Wizard akan: membuat `.env` dan `APP_KEY`, membuat semua tabel, mengisi data master (bagian, peraturan, jenis izin & langkah, kelompok izin, template), membuat akun `admin`, dan (opsional) memuat data demo. Setelah selesai, `/install` otomatis ditutup.

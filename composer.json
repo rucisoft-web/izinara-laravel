@@ -2,7 +2,7 @@
     "$schema": "https://getcomposer.org/schema.json",
     "name": "rucisoft/izinara",
     "type": "project",
-    "description": "Izinara \u2013 manajemen proyek perizinan impor pangan Indoguna (Laravel + MySQL)",
+    "description": "Izinara \u2013 manajemen proyek perizinan impor pangan (Laravel + MySQL)",
     "keywords": [
         "laravel",
         "framework"

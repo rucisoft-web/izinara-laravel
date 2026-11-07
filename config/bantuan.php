@@ -83,7 +83,7 @@ return [
                 'Pemicu kebutuhan mencatat asal proyek: PO impor baru, produk baru, perpanjangan izin, perubahan regulasi, atau sertifikasi halal.',
             ],
             'langkah' => ['Gunakan filter status/kelompok di atas tabel.', 'Klik "＋ Proyek baru" (khusus manajer/admin) untuk membuat proyek.'],
-            'gambar' => ['proyek-daftar.png' => 'Daftar proyek demo Indoguna lintas kelompok izin.'],
+            'gambar' => ['proyek-daftar.png' => 'Daftar proyek demo lintas kelompok izin.'],
         ],
 
         'proyek-baru' => [
@@ -262,7 +262,7 @@ return [
             'routes' => ['items.index', 'suppliers.index'],
             'ringkas' => 'Master produk yang diimpor/dijual dan eksportir/unit usaha asalnya.',
             'konsep' => ['Item code menentukan kelompok izin dan HS code. Pemasok mencatat negara asal dan nomor registrasi unit usaha (mis. Est. number) yang dibutuhkan rekomendasi.'],
-            'langkah' => ['Impor item lewat CSV dengan kolom: ITEMCODE; ITEMNAME; Country; Category; Group; SubGroup; HS; Non-halal; Jenis produk; Kode kelompok izin. Atau klik muat item master bawaan Indoguna.', 'Tambah pemasok dengan negara dan nomor registrasinya.'],
+            'langkah' => ['Impor item lewat CSV dengan kolom: ITEMCODE; ITEMNAME; Country; Category; Group; SubGroup; HS; Non-halal; Jenis produk; Kode kelompok izin. Atau klik muat item master bawaan.', 'Tambah pemasok dengan negara dan nomor registrasinya.'],
             'gambar' => ['item-code.png' => 'Master item code.'],
         ],
 

@@ -7,7 +7,6 @@
   <form class="login" method="post" action="{{ url('/login') }}">
     @csrf
     <div class="brand"><img src="{{ asset('img/izinara.png') }}" alt=""><div><b>Izinara</b><small class="muted">Manajemen proyek perizinan impor pangan</small></div></div>
-    <div class="org">PT INDOGUNA UTAMA</div>
     @if(session('ok'))<div class="alert ok">{{ session('ok') }}</div>@endif
     @if($errors->any())<div class="alert bad">{{ $errors->first() }}</div>@endif
     <div class="field"><label>Nama pengguna atau email</label><input type="text" name="login" value="{{ old('login') }}" required autofocus></div>

@@ -31,7 +31,7 @@
       <div class="field"><label>Kata sandi admin (min. 8)</label><input type="password" name="admin_password" required minlength="8"></div>
       <div class="field"><label>Ulangi kata sandi</label><input type="password" name="admin_password_confirmation" required minlength="8"></div>
     </div>
-    <label class="check"><input type="checkbox" name="demo" value="1" @checked(old('demo', true))> <span>Muat data demo Indoguna (18 proyek, lampiran contoh, akun demo dengan kata sandi <code>izinara</code>) — untuk latihan dan pengenalan aplikasi</span></label>
+    <label class="check"><input type="checkbox" name="demo" value="1" @checked(old('demo', true))> <span>Muat data demo (18 proyek, lampiran contoh, akun demo dengan kata sandi <code>izinara</code>) — untuk latihan dan pengenalan aplikasi</span></label>
 
     <button class="btn" style="width:100%;justify-content:center;margin-top:16px" onclick="this.disabled=true;this.textContent='Memasang… (bisa 1–2 menit)';this.form.submit()">Pasang Izinara</button>
     <p class="help">Setelah terpasang, halaman ini otomatis ditutup.</p>

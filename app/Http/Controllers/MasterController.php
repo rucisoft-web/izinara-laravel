@@ -53,7 +53,7 @@ class MasterController extends Controller
 
     /**
      * Impor item code dari CSV (ITEMCODE;ITEMNAME;Country;Category;Group;SubGroup;HS;Non-halal;Jenis produk;Kode template)
-     * atau dari file pemetaan bawaan (database/data/items.json, 2.864 item master Indoguna).
+     * atau dari file pemetaan bawaan (database/data/items.json, 2.864 item master bawaan).
      */
     public function importItems(Request $request)
     {

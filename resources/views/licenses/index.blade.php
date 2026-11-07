@@ -2,7 +2,7 @@
 @section('title', 'Register izin')
 @section('crumb', 'Register izin')
 @section('content')
-<div class="page-head"><div><h1>Register izin</h1><p>Izin yang dimiliki Indoguna. Izin yang masih berlaku pada ETA/tenggat dipakai ulang otomatis saat menyusun proyek baru.</p></div></div>
+<div class="page-head"><div><h1>Register izin</h1><p>Izin yang dimiliki perusahaan. Izin yang masih berlaku pada ETA/tenggat dipakai ulang otomatis saat menyusun proyek baru.</p></div></div>
 <form class="filters">
   <div class="field"><label>Jenis izin</label><select name="jenis"><option value="">Semua</option>@foreach($types as $t)<option value="{{ $t->id }}" @selected(request('jenis')==$t->id)>{{ $t->name }}</option>@endforeach</select></div>
   <div class="field"><label>Status</label><select name="status"><option value="">Semua</option><option value="aktif" @selected(request('status')==='aktif')>Aktif</option><option value="segera_habis" @selected(request('status')==='segera_habis')>Segera habis (≤90 hari)</option><option value="kedaluwarsa" @selected(request('status')==='kedaluwarsa')>Kedaluwarsa</option></select></div>

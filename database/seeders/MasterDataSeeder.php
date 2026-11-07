@@ -16,7 +16,7 @@ use Illuminate\Support\Facades\DB;
 
 /**
  * Data master dari modul Odoo Izinara (bagian, peraturan, 22 jenis izin dengan 89 langkah standar & dokumen wajib,
- * 17 template) dan 2.864 item code dari item master Indoguna (pemetaan-item-ke-izin.xlsx).
+ * 17 template) dan 2.864 item code dari item master bawaan (pemetaan-item-ke-izin.xlsx).
  */
 class MasterDataSeeder extends Seeder
 {
@@ -76,14 +76,14 @@ class MasterDataSeeder extends Seeder
         }
 
         // Kelompok khusus proyek sertifikasi halal (SHLN untuk produk impor, sertifikat halal BPJPH untuk produk
-        // yang dipotong/dikemas ulang Indoguna, pemisahan produk non-halal).
+        // yang dipotong/dikemas ulang sendiri, pemisahan produk non-halal).
         $halal = Template::updateOrCreate(['code' => 'T_HALAL'], ['name' => 'Sertifikasi halal (SHLN & BPJPH)', 'food_group' => 'halal',
             'sequence' => 95, 'description' => 'Proyek khusus memperoleh/memperpanjang sertifikat halal: registrasi SHLN di BPJPH dan sertifikasi halal produk kemas ulang.']);
         $halal->lines()->delete();
         foreach ([['SHLN', 10, true], ['HALAL_SH', 20, true], ['NONHALAL', 30, false]] as [$code, $seq, $mand]) {
             TemplateLine::create(['template_id' => $halal->id, 'permit_type_id' => $types[$code], 'sequence' => $seq, 'mandatory' => $mand]);
         }
-        // Item code tidak dimuat di sini. Muat item master lengkap dari menu Item code > "Muat item master Indoguna",
+        // Item code tidak dimuat di sini. Muat item master lengkap dari menu Item code > "Muat item master bawaan",
         // atau php artisan db:seed --class=ItemMasterSeeder.
     }
 }

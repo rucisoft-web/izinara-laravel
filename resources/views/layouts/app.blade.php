@@ -21,7 +21,7 @@
 @endphp
 <div class="app">
   <aside class="side">
-    <a class="brand" href="{{ route('dashboard') }}"><img src="{{ asset('img/izinara.png') }}" alt=""><div>Izinara<small>Proyek perizinan impor · Indoguna</small></div></a>
+    <a class="brand" href="{{ route('dashboard') }}"><img src="{{ asset('img/izinara.png') }}" alt=""><div>Izinara<small>Proyek perizinan impor pangan</small></div></a>
     <nav>
       <a href="{{ route('dashboard') }}" class="{{ $nav('dashboard') }}">▦ Dashboard</a>
       <a href="{{ route('tasks.mine') }}" class="{{ $nav('tasks.mine') }}">☑ Tugas saya @if($myOpen)<span class="cnt">{{ $myOpen }}</span>@endif</a>

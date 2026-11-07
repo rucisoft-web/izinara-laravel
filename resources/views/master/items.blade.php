@@ -15,7 +15,7 @@
 <form method="post" action="{{ route('items.import') }}" enctype="multipart/form-data" class="row">@csrf
   <input type="file" name="file" accept=".csv,.txt"><button class="btn sm">Impor CSV</button>
   <span class="help">Kolom: ITEMCODE; ITEMNAME; Country; Category; Group; SubGroup; HS; Non-halal (ya/tidak); Jenis produk; Kode kelompok (mis. T_MEAT_HALAL).</span></form>
-<form method="post" action="{{ route('items.import') }}" style="margin-top:10px" data-confirm="Muat 2.864 item code dari item master Indoguna (Oktober 2026)?">@csrf<input type="hidden" name="bawaan" value="1"><button class="btn ghost sm">Muat item master Indoguna lengkap (2.864 item)</button></form>
+<form method="post" action="{{ route('items.import') }}" style="margin-top:10px" data-confirm="Muat 2.864 item code dari item master bawaan (Oktober 2026)?">@csrf<input type="hidden" name="bawaan" value="1"><button class="btn ghost sm">Muat item master bawaan lengkap (2.864 item)</button></form>
 </div>
 @endif
 @endsection

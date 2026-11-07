@@ -25,13 +25,13 @@ use Illuminate\Support\Facades\Storage;
 use Illuminate\Support\Str;
 
 /**
- * Data demo kegiatan perizinan Indoguna Group.
+ * Data demo kegiatan perizinan sebuah importir pangan (contoh).
  *
  * - 6 kelompok (PSAH, PSAI, PSAT, BPOM ML, BPOM MD, Sertifikasi Halal) × 3 proyek: selesai, berjalan/tertahan, rencana.
  * - Proyek selesai menjadi riwayat realisasi (dasar proyeksi) dan disimpan sebagai template WBS.
  * - Proyek rencana dibuat dengan "Salin dari template" sehingga fitur salin WBS terlihat.
  * - Lampiran contoh (PDF, Excel, Word, JPG), verifikasi lolos/ditolak, @mention, memo antar bagian, notifikasi.
- * - Hanya data Indoguna: pemasok luar negeri ditulis sebagai keterangan umum, bukan nama perusahaan.
+ * - Data contoh: pemasok luar negeri ditulis sebagai keterangan umum, bukan nama perusahaan.
  * Semua tanggal relatif terhadap hari seeding.
  */
 class DemoSeeder extends Seeder
@@ -52,7 +52,7 @@ class DemoSeeder extends Seeder
         'EST_APPROVAL' => [1.0, 1.2], 'HALAL_SH' => [1.0, 1.3],
     ];
 
-    /** Item contoh dari item master Indoguna. */
+    /** Item contoh dari item master. */
     private const ITEMS = ['AAU1AMH005', 'AID2LOC055', 'ADK2DAN001', 'AAU1JBS050', 'AAU1MUL095', 'DNO1STL004', 'DNO1STL002',
         'DCN2ZHE001', 'DCN2KIN002', 'DNZ2HIF002', 'GFR3DAU003', 'GFR3DAU019', 'GCN2XJR011', 'EIT3CIA001', 'EIT3DEC028',
         'EIT3BAL001', 'EIT3DEC014', 'HAU2SAP002', 'BID2IGU013', 'BID2IGU054', 'BID2IGU034', 'AAU12GR001', 'AAU1AMH003',
@@ -88,7 +88,7 @@ class DemoSeeder extends Seeder
         ];
         foreach ($rows as [$login, $name, $party, $role, $title, $cap]) {
             $this->users[$login] = User::updateOrCreate(['username' => $login], [
-                'name' => $name, 'email' => "$login@indoguna.test", 'password' => self::PASSWORD,
+                'name' => $name, 'email' => "$login@izinara.test", 'password' => self::PASSWORD,
                 'party_id' => $party ? $p[$party] : null, 'role' => $role, 'job_title' => $title, 'weekly_capacity' => $cap,
             ]);
         }
@@ -110,7 +110,7 @@ class DemoSeeder extends Seeder
             'cn2' => ['Eksportir buah beku – Tiongkok', 'exporter', 'Tiongkok', null],
             'it' => ['Prinsipal pangan olahan – Italia', 'exporter', 'Italia', null],
             'ar' => ['Eksportir produk susu – Argentina', 'exporter', 'Argentina', null],
-            'igu' => ['Indoguna – unit pengolahan daging Cikarang', 'local', 'Indonesia', null],
+            'igu' => ['Unit pengolahan daging sendiri – Cikarang', 'local', 'Indonesia', null],
         ];
         foreach ($rows as $k => [$name, $kind, $country, $est]) {
             $this->suppliers[$k] = Supplier::firstOrCreate(['name' => $name], ['kind' => $kind, 'country' => $country, 'establishment_no' => $est]);
@@ -133,7 +133,7 @@ class DemoSeeder extends Seeder
 
     private function licenses(): void
     {
-        $this->license('NIB_API', '9120001234567 (NIB/API-U Indoguna)', -1500, null);
+        $this->license('NIB_API', '9120001234567 (NIB/API-U perusahaan)', -1500, null);
         $this->license('NKV', 'NKV-CS-3216-0042 (cold storage Cikarang)', -700, 760);
         $this->license('EST_APPROVAL', 'Persetujuan unit usaha Est. DK-1327', -300, 65, [], 'dk_est');
         $this->license('SHLN', 'SHLN-AR-2025-0077', -280, 85, ['HAU2SAP002']);
@@ -165,12 +165,12 @@ class DemoSeeder extends Seeder
             ['PRJ-2026-011', 'Impor butter Argentina – PO 4500-0480', 'pengapalan', ['HAU2SAP002' => 25000], 'ar', -36, 6, 'normal', ['contingency' => 9]],
             ['PRJ-2026-012', 'Produk baru: wafer & fusilli organik Italia', 'produk_baru', ['EIT3BAL001' => 3000, 'EIT3DEC014' => 4000], 'it', 30, 8, 'normal', ['copy' => 'PRJ-2026-010']],
             // BPOM MD – pangan olahan dalam negeri
-            ['PRJ-2026-013', 'Registrasi MD beef salami Indoguna', 'produk_baru', ['BID2IGU013' => 0], 'igu', -160, null, 'normal', ['target' => 75, 'wbs' => 'WBS standar BPOM MD – pangan olahan Indoguna']],
-            ['PRJ-2026-014', 'Registrasi MD sosis bockwurst Indoguna', 'produk_baru', ['BID2IGU054' => 0], 'igu', -22, null, 'normal', ['target' => 70, 'hold' => 'Hasil uji laboratorium (cemaran mikroba) belum keluar dari lab terakreditasi.']],
-            ['PRJ-2026-015', 'Perpanjangan izin edar MD bakso super Indoguna', 'perpanjangan', ['BID2IGU034' => 0], 'igu', 6, null, 'tinggi', ['target' => 55, 'copy' => 'PRJ-2026-013']],
+            ['PRJ-2026-013', 'Registrasi MD beef salami merek sendiri', 'produk_baru', ['BID2IGU013' => 0], 'igu', -160, null, 'normal', ['target' => 75, 'wbs' => 'WBS standar BPOM MD – pangan olahan merek sendiri']],
+            ['PRJ-2026-014', 'Registrasi MD sosis bockwurst merek sendiri', 'produk_baru', ['BID2IGU054' => 0], 'igu', -22, null, 'normal', ['target' => 70, 'hold' => 'Hasil uji laboratorium (cemaran mikroba) belum keluar dari lab terakreditasi.']],
+            ['PRJ-2026-015', 'Perpanjangan izin edar MD bakso super', 'perpanjangan', ['BID2IGU034' => 0], 'igu', 6, null, 'tinggi', ['target' => 55, 'copy' => 'PRJ-2026-013']],
             // Sertifikasi halal
             ['PRJ-2026-016', 'Registrasi SHLN wagyu Australia', 'produk_baru', ['AAU12GR001' => 0], 'au', -120, null, 'tinggi', ['target' => 35, 'types' => ['SHLN'], 'halal' => true, 'wbs' => 'WBS standar Sertifikasi Halal – registrasi SHLN']],
-            ['PRJ-2026-017', 'Sertifikasi halal BPJPH daging potong & kemas ulang Indoguna', 'produk_baru', ['AAU1AMH003' => 0], 'igu', -20, null, 'tinggi', ['target' => 50, 'types' => ['HALAL_SH'], 'halal' => true]],
+            ['PRJ-2026-017', 'Sertifikasi halal BPJPH daging potong & kemas ulang', 'produk_baru', ['AAU1AMH003' => 0], 'igu', -20, null, 'tinggi', ['target' => 50, 'types' => ['HALAL_SH'], 'halal' => true]],
             ['PRJ-2026-018', 'Perpanjangan SHLN butter Argentina', 'perpanjangan', ['HAU2SAP002' => 0], 'ar', 10, null, 'tinggi', ['target' => 30, 'halal' => true, 'copy' => 'PRJ-2026-016']],
         ];
 
@@ -244,7 +244,7 @@ class DemoSeeder extends Seeder
     {
         return match ($trigger) {
             'pengapalan' => "Rencana pengapalan dari Purchasing: $name. Semua izin wajib harus terbit sebelum barang tiba agar bisa langsung clearance tanpa biaya demurrage.",
-            'produk_baru' => "Produk/kebutuhan baru Indoguna: $name. Izin dan sertifikat harus terbit sebelum produk diedarkan.",
+            'produk_baru' => "Produk/kebutuhan baru: $name. Izin dan sertifikat harus terbit sebelum produk diedarkan.",
             'perpanjangan' => "Izin akan habis masa berlakunya: $name. Pengurusan dimulai lebih awal agar impor/penjualan tidak terhenti.",
             default => "Perubahan data/pemasok: $name.",
         };
