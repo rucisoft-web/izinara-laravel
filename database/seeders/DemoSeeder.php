@@ -55,7 +55,7 @@ class DemoSeeder extends Seeder
     /** Item contoh dari item master. */
     private const ITEMS = ['AAU1AMH005', 'AID2LOC055', 'ADK2DAN001', 'AAU1JBS050', 'AAU1MUL095', 'DNO1STL004', 'DNO1STL002',
         'DCN2ZHE001', 'DCN2KIN002', 'DNZ2HIF002', 'GFR3DAU003', 'GFR3DAU019', 'GCN2XJR011', 'EIT3CIA001', 'EIT3DEC028',
-        'EIT3BAL001', 'EIT3DEC014', 'HAU2SAP002', 'BID2IGU013', 'BID2IGU054', 'BID2IGU034', 'AAU12GR001', 'AAU1AMH003',
+        'EIT3BAL001', 'EIT3DEC014', 'HAU2SAP002', 'BID2LOK013', 'BID2LOK054', 'BID2LOK034', 'AAU12GR001', 'AAU1AMH003',
         'AID2LOC043', 'HAU1WBO001', 'AAU2COM001'];
 
     public function run(): void
@@ -110,7 +110,7 @@ class DemoSeeder extends Seeder
             'cn2' => ['Eksportir buah beku – Tiongkok', 'exporter', 'Tiongkok', null],
             'it' => ['Prinsipal pangan olahan – Italia', 'exporter', 'Italia', null],
             'ar' => ['Eksportir produk susu – Argentina', 'exporter', 'Argentina', null],
-            'igu' => ['Unit pengolahan daging sendiri – Cikarang', 'local', 'Indonesia', null],
+            'lokal' => ['Unit pengolahan daging sendiri – Cikarang', 'local', 'Indonesia', null],
         ];
         foreach ($rows as $k => [$name, $kind, $country, $est]) {
             $this->suppliers[$k] = Supplier::firstOrCreate(['name' => $name], ['kind' => $kind, 'country' => $country, 'establishment_no' => $est]);
@@ -141,7 +141,7 @@ class DemoSeeder extends Seeder
         $this->license('RP_KEMENTAN', 'RP-PKH/2026/05/0331', -170, 12, ['AAU1AMH005', 'AID2LOC055'], null, 48000);
         $this->license('PI_KEMENDAG', 'PI-04.PI-05.26.0112', -160, 20, ['AAU1AMH005', 'AID2LOC055'], null, 48000);
         $this->license('HALAL_SH', 'ID00410000123450824', -420, 1040, []);
-        $this->license('LOCAL_SUPPLIER', 'Verifikasi unit pengolahan Cikarang', -200, 165, [], 'igu');
+        $this->license('LOCAL_SUPPLIER', 'Verifikasi unit pengolahan Cikarang', -200, 165, [], 'lokal');
     }
 
     private function projects(): void
@@ -165,12 +165,12 @@ class DemoSeeder extends Seeder
             ['PRJ-2026-011', 'Impor butter Argentina – PO 4500-0480', 'pengapalan', ['HAU2SAP002' => 25000], 'ar', -36, 6, 'normal', ['contingency' => 9]],
             ['PRJ-2026-012', 'Produk baru: wafer & fusilli organik Italia', 'produk_baru', ['EIT3BAL001' => 3000, 'EIT3DEC014' => 4000], 'it', 30, 8, 'normal', ['copy' => 'PRJ-2026-010']],
             // BPOM MD – pangan olahan dalam negeri
-            ['PRJ-2026-013', 'Registrasi MD beef salami merek sendiri', 'produk_baru', ['BID2IGU013' => 0], 'igu', -160, null, 'normal', ['target' => 75, 'wbs' => 'WBS standar BPOM MD – pangan olahan merek sendiri']],
-            ['PRJ-2026-014', 'Registrasi MD sosis bockwurst merek sendiri', 'produk_baru', ['BID2IGU054' => 0], 'igu', -22, null, 'normal', ['target' => 70, 'hold' => 'Hasil uji laboratorium (cemaran mikroba) belum keluar dari lab terakreditasi.']],
-            ['PRJ-2026-015', 'Perpanjangan izin edar MD bakso super', 'perpanjangan', ['BID2IGU034' => 0], 'igu', 6, null, 'tinggi', ['target' => 55, 'copy' => 'PRJ-2026-013']],
+            ['PRJ-2026-013', 'Registrasi MD beef salami merek sendiri', 'produk_baru', ['BID2LOK013' => 0], 'lokal', -160, null, 'normal', ['target' => 75, 'wbs' => 'WBS standar BPOM MD – pangan olahan merek sendiri']],
+            ['PRJ-2026-014', 'Registrasi MD sosis bockwurst merek sendiri', 'produk_baru', ['BID2LOK054' => 0], 'lokal', -22, null, 'normal', ['target' => 70, 'hold' => 'Hasil uji laboratorium (cemaran mikroba) belum keluar dari lab terakreditasi.']],
+            ['PRJ-2026-015', 'Perpanjangan izin edar MD bakso super', 'perpanjangan', ['BID2LOK034' => 0], 'lokal', 6, null, 'tinggi', ['target' => 55, 'copy' => 'PRJ-2026-013']],
             // Sertifikasi halal
             ['PRJ-2026-016', 'Registrasi SHLN wagyu Australia', 'produk_baru', ['AAU12GR001' => 0], 'au', -120, null, 'tinggi', ['target' => 35, 'types' => ['SHLN'], 'halal' => true, 'wbs' => 'WBS standar Sertifikasi Halal – registrasi SHLN']],
-            ['PRJ-2026-017', 'Sertifikasi halal BPJPH daging potong & kemas ulang', 'produk_baru', ['AAU1AMH003' => 0], 'igu', -20, null, 'tinggi', ['target' => 50, 'types' => ['HALAL_SH'], 'halal' => true]],
+            ['PRJ-2026-017', 'Sertifikasi halal BPJPH daging potong & kemas ulang', 'produk_baru', ['AAU1AMH003' => 0], 'lokal', -20, null, 'tinggi', ['target' => 50, 'types' => ['HALAL_SH'], 'halal' => true]],
             ['PRJ-2026-018', 'Perpanjangan SHLN butter Argentina', 'perpanjangan', ['HAU2SAP002' => 0], 'ar', 10, null, 'tinggi', ['target' => 30, 'halal' => true, 'copy' => 'PRJ-2026-016']],
         ];
 
