@@ -1,0 +1,857 @@
+[
+ {
+  "code": "T_MEAT_HALAL",
+  "name": "Daging merah impor (halal)",
+  "food_group": "psah",
+  "sequence": 10,
+  "description": "Sapi, wagyu, kerbau, domba, veal, venison dan jeroan beku/dingin.",
+  "lines": [
+   {
+    "type": "NIB_API",
+    "sequence": 10,
+    "mandatory": true,
+    "note": ""
+   },
+   {
+    "type": "LARTAS_CHECK",
+    "sequence": 20,
+    "mandatory": true,
+    "note": ""
+   },
+   {
+    "type": "CUSTOMS_PIB",
+    "sequence": 30,
+    "mandatory": true,
+    "note": ""
+   },
+   {
+    "type": "COO",
+    "sequence": 40,
+    "mandatory": false,
+    "note": ""
+   },
+   {
+    "type": "NKV",
+    "sequence": 50,
+    "mandatory": true,
+    "note": ""
+   },
+   {
+    "type": "EST_APPROVAL",
+    "sequence": 60,
+    "mandatory": true,
+    "note": ""
+   },
+   {
+    "type": "RP_KEMENTAN",
+    "sequence": 70,
+    "mandatory": true,
+    "note": ""
+   },
+   {
+    "type": "PI_KEMENDAG",
+    "sequence": 80,
+    "mandatory": true,
+    "note": ""
+   },
+   {
+    "type": "SHLN",
+    "sequence": 90,
+    "mandatory": true,
+    "note": ""
+   },
+   {
+    "type": "QUARANTINE_ANIMAL",
+    "sequence": 100,
+    "mandatory": true,
+    "note": ""
+   },
+   {
+    "type": "HALAL_SH",
+    "sequence": 110,
+    "mandatory": false,
+    "note": ""
+   }
+  ]
+ },
+ {
+  "code": "T_PORK",
+  "name": "Daging babi impor (non-halal)",
+  "food_group": "psah",
+  "sequence": 20,
+  "description": "Daging babi beku/dingin.",
+  "lines": [
+   {
+    "type": "NIB_API",
+    "sequence": 10,
+    "mandatory": true,
+    "note": ""
+   },
+   {
+    "type": "LARTAS_CHECK",
+    "sequence": 20,
+    "mandatory": true,
+    "note": ""
+   },
+   {
+    "type": "CUSTOMS_PIB",
+    "sequence": 30,
+    "mandatory": true,
+    "note": ""
+   },
+   {
+    "type": "COO",
+    "sequence": 40,
+    "mandatory": false,
+    "note": ""
+   },
+   {
+    "type": "NKV",
+    "sequence": 50,
+    "mandatory": true,
+    "note": ""
+   },
+   {
+    "type": "EST_APPROVAL",
+    "sequence": 60,
+    "mandatory": true,
+    "note": ""
+   },
+   {
+    "type": "RP_KEMENTAN",
+    "sequence": 70,
+    "mandatory": true,
+    "note": ""
+   },
+   {
+    "type": "PI_KEMENDAG",
+    "sequence": 80,
+    "mandatory": true,
+    "note": ""
+   },
+   {
+    "type": "NONHALAL",
+    "sequence": 90,
+    "mandatory": true,
+    "note": ""
+   },
+   {
+    "type": "QUARANTINE_ANIMAL",
+    "sequence": 100,
+    "mandatory": true,
+    "note": ""
+   }
+  ]
+ },
+ {
+  "code": "T_POULTRY",
+  "name": "Unggas impor (halal)",
+  "food_group": "psah",
+  "sequence": 30,
+  "description": "Ayam, bebek dan unggas lain.",
+  "lines": [
+   {
+    "type": "NIB_API",
+    "sequence": 10,
+    "mandatory": true,
+    "note": ""
+   },
+   {
+    "type": "LARTAS_CHECK",
+    "sequence": 20,
+    "mandatory": true,
+    "note": ""
+   },
+   {
+    "type": "CUSTOMS_PIB",
+    "sequence": 30,
+    "mandatory": true,
+    "note": ""
+   },
+   {
+    "type": "COO",
+    "sequence": 40,
+    "mandatory": false,
+    "note": ""
+   },
+   {
+    "type": "NKV",
+    "sequence": 50,
+    "mandatory": true,
+    "note": ""
+   },
+   {
+    "type": "EST_APPROVAL",
+    "sequence": 60,
+    "mandatory": true,
+    "note": ""
+   },
+   {
+    "type": "RP_KEMENTAN",
+    "sequence": 70,
+    "mandatory": true,
+    "note": ""
+   },
+   {
+    "type": "PI_KEMENDAG",
+    "sequence": 80,
+    "mandatory": true,
+    "note": ""
+   },
+   {
+    "type": "SHLN",
+    "sequence": 90,
+    "mandatory": true,
+    "note": ""
+   },
+   {
+    "type": "QUARANTINE_ANIMAL",
+    "sequence": 100,
+    "mandatory": true,
+    "note": ""
+   }
+  ]
+ },
+ {
+  "code": "T_SEAFOOD",
+  "name": "Ikan & seafood impor",
+  "food_group": "psai",
+  "sequence": 40,
+  "description": "Ikan, udang, cumi, kerang, kepiting, lobster segar/beku.",
+  "lines": [
+   {
+    "type": "NIB_API",
+    "sequence": 10,
+    "mandatory": true,
+    "note": ""
+   },
+   {
+    "type": "LARTAS_CHECK",
+    "sequence": 20,
+    "mandatory": true,
+    "note": ""
+   },
+   {
+    "type": "CUSTOMS_PIB",
+    "sequence": 30,
+    "mandatory": true,
+    "note": ""
+   },
+   {
+    "type": "COO",
+    "sequence": 40,
+    "mandatory": false,
+    "note": ""
+   },
+   {
+    "type": "RPHP_KKP",
+    "sequence": 50,
+    "mandatory": true,
+    "note": ""
+   },
+   {
+    "type": "PI_KEMENDAG",
+    "sequence": 60,
+    "mandatory": true,
+    "note": ""
+   },
+   {
+    "type": "QUARANTINE_FISH",
+    "sequence": 70,
+    "mandatory": true,
+    "note": ""
+   }
+  ]
+ },
+ {
+  "code": "T_PROC_MEAT",
+  "name": "Olahan daging impor (halal)",
+  "food_group": "ml",
+  "sequence": 50,
+  "description": "Sosis, cold cut, bakso, daging olahan HS 1601/1602.",
+  "lines": [
+   {
+    "type": "NIB_API",
+    "sequence": 10,
+    "mandatory": true,
+    "note": ""
+   },
+   {
+    "type": "LARTAS_CHECK",
+    "sequence": 20,
+    "mandatory": true,
+    "note": ""
+   },
+   {
+    "type": "CUSTOMS_PIB",
+    "sequence": 30,
+    "mandatory": true,
+    "note": ""
+   },
+   {
+    "type": "COO",
+    "sequence": 40,
+    "mandatory": false,
+    "note": ""
+   },
+   {
+    "type": "EST_APPROVAL",
+    "sequence": 50,
+    "mandatory": true,
+    "note": ""
+   },
+   {
+    "type": "RP_KEMENTAN",
+    "sequence": 60,
+    "mandatory": true,
+    "note": ""
+   },
+   {
+    "type": "PI_KEMENDAG",
+    "sequence": 70,
+    "mandatory": true,
+    "note": ""
+   },
+   {
+    "type": "ML_BPOM",
+    "sequence": 80,
+    "mandatory": true,
+    "note": ""
+   },
+   {
+    "type": "SHLN",
+    "sequence": 90,
+    "mandatory": true,
+    "note": ""
+   },
+   {
+    "type": "SKI_BPOM",
+    "sequence": 100,
+    "mandatory": true,
+    "note": ""
+   },
+   {
+    "type": "LABEL_ID",
+    "sequence": 110,
+    "mandatory": true,
+    "note": ""
+   },
+   {
+    "type": "QUARANTINE_ANIMAL",
+    "sequence": 120,
+    "mandatory": true,
+    "note": ""
+   }
+  ]
+ },
+ {
+  "code": "T_PROC_PORK",
+  "name": "Olahan daging babi impor (non-halal)",
+  "food_group": "ml",
+  "sequence": 55,
+  "description": "Bacon, ham, salami, sosis babi.",
+  "lines": [
+   {
+    "type": "NIB_API",
+    "sequence": 10,
+    "mandatory": true,
+    "note": ""
+   },
+   {
+    "type": "LARTAS_CHECK",
+    "sequence": 20,
+    "mandatory": true,
+    "note": ""
+   },
+   {
+    "type": "CUSTOMS_PIB",
+    "sequence": 30,
+    "mandatory": true,
+    "note": ""
+   },
+   {
+    "type": "COO",
+    "sequence": 40,
+    "mandatory": false,
+    "note": ""
+   },
+   {
+    "type": "EST_APPROVAL",
+    "sequence": 50,
+    "mandatory": true,
+    "note": ""
+   },
+   {
+    "type": "RP_KEMENTAN",
+    "sequence": 60,
+    "mandatory": true,
+    "note": ""
+   },
+   {
+    "type": "PI_KEMENDAG",
+    "sequence": 70,
+    "mandatory": true,
+    "note": ""
+   },
+   {
+    "type": "ML_BPOM",
+    "sequence": 80,
+    "mandatory": true,
+    "note": ""
+   },
+   {
+    "type": "NONHALAL",
+    "sequence": 90,
+    "mandatory": true,
+    "note": ""
+   },
+   {
+    "type": "SKI_BPOM",
+    "sequence": 100,
+    "mandatory": true,
+    "note": ""
+   },
+   {
+    "type": "LABEL_ID",
+    "sequence": 110,
+    "mandatory": true,
+    "note": ""
+   },
+   {
+    "type": "QUARANTINE_ANIMAL",
+    "sequence": 120,
+    "mandatory": true,
+    "note": ""
+   }
+  ]
+ },
+ {
+  "code": "T_PROC_SEAFOOD",
+  "name": "Olahan ikan/seafood impor",
+  "food_group": "ml",
+  "sequence": 60,
+  "description": "Seafood olahan, kaviar, ikan asap/kaleng (HS 1604/1605).",
+  "lines": [
+   {
+    "type": "NIB_API",
+    "sequence": 10,
+    "mandatory": true,
+    "note": ""
+   },
+   {
+    "type": "LARTAS_CHECK",
+    "sequence": 20,
+    "mandatory": true,
+    "note": ""
+   },
+   {
+    "type": "CUSTOMS_PIB",
+    "sequence": 30,
+    "mandatory": true,
+    "note": ""
+   },
+   {
+    "type": "COO",
+    "sequence": 40,
+    "mandatory": false,
+    "note": ""
+   },
+   {
+    "type": "ML_BPOM",
+    "sequence": 50,
+    "mandatory": true,
+    "note": ""
+   },
+   {
+    "type": "SHLN",
+    "sequence": 60,
+    "mandatory": true,
+    "note": ""
+   },
+   {
+    "type": "SKI_BPOM",
+    "sequence": 70,
+    "mandatory": true,
+    "note": ""
+   },
+   {
+    "type": "LABEL_ID",
+    "sequence": 80,
+    "mandatory": true,
+    "note": ""
+   },
+   {
+    "type": "QUARANTINE_FISH",
+    "sequence": 90,
+    "mandatory": true,
+    "note": ""
+   }
+  ]
+ },
+ {
+  "code": "T_DAIRY",
+  "name": "Susu & olahan susu impor",
+  "food_group": "ml",
+  "sequence": 70,
+  "description": "Mentega, keju, krim, susu, yoghurt, es krim.",
+  "lines": [
+   {
+    "type": "NIB_API",
+    "sequence": 10,
+    "mandatory": true,
+    "note": ""
+   },
+   {
+    "type": "LARTAS_CHECK",
+    "sequence": 20,
+    "mandatory": true,
+    "note": ""
+   },
+   {
+    "type": "CUSTOMS_PIB",
+    "sequence": 30,
+    "mandatory": true,
+    "note": ""
+   },
+   {
+    "type": "COO",
+    "sequence": 40,
+    "mandatory": false,
+    "note": ""
+   },
+   {
+    "type": "ML_BPOM",
+    "sequence": 50,
+    "mandatory": true,
+    "note": ""
+   },
+   {
+    "type": "SHLN",
+    "sequence": 60,
+    "mandatory": true,
+    "note": ""
+   },
+   {
+    "type": "SKI_BPOM",
+    "sequence": 70,
+    "mandatory": true,
+    "note": ""
+   },
+   {
+    "type": "LABEL_ID",
+    "sequence": 80,
+    "mandatory": true,
+    "note": ""
+   },
+   {
+    "type": "QUARANTINE_ANIMAL",
+    "sequence": 90,
+    "mandatory": true,
+    "note": ""
+   }
+  ]
+ },
+ {
+  "code": "T_FRESH_PLANT",
+  "name": "Sayur & buah beku impor",
+  "food_group": "psat",
+  "sequence": 80,
+  "description": "Sayur dan buah beku HS 07/08 tanpa pengolahan lanjut.",
+  "lines": [
+   {
+    "type": "NIB_API",
+    "sequence": 10,
+    "mandatory": true,
+    "note": ""
+   },
+   {
+    "type": "LARTAS_CHECK",
+    "sequence": 20,
+    "mandatory": true,
+    "note": ""
+   },
+   {
+    "type": "CUSTOMS_PIB",
+    "sequence": 30,
+    "mandatory": true,
+    "note": ""
+   },
+   {
+    "type": "COO",
+    "sequence": 40,
+    "mandatory": false,
+    "note": ""
+   },
+   {
+    "type": "PSAT",
+    "sequence": 50,
+    "mandatory": true,
+    "note": ""
+   },
+   {
+    "type": "RIPH",
+    "sequence": 60,
+    "mandatory": true,
+    "note": ""
+   },
+   {
+    "type": "QUARANTINE_PLANT",
+    "sequence": 70,
+    "mandatory": true,
+    "note": ""
+   }
+  ]
+ },
+ {
+  "code": "T_PROCESSED",
+  "name": "Pangan olahan impor (halal)",
+  "food_group": "ml",
+  "sequence": 90,
+  "description": "Kentang goreng beku, saus, pasta, snack, minuman, bahan pastry dan grocery lain.",
+  "lines": [
+   {
+    "type": "NIB_API",
+    "sequence": 10,
+    "mandatory": true,
+    "note": ""
+   },
+   {
+    "type": "LARTAS_CHECK",
+    "sequence": 20,
+    "mandatory": true,
+    "note": ""
+   },
+   {
+    "type": "CUSTOMS_PIB",
+    "sequence": 30,
+    "mandatory": true,
+    "note": ""
+   },
+   {
+    "type": "COO",
+    "sequence": 40,
+    "mandatory": false,
+    "note": ""
+   },
+   {
+    "type": "ML_BPOM",
+    "sequence": 50,
+    "mandatory": true,
+    "note": ""
+   },
+   {
+    "type": "SHLN",
+    "sequence": 60,
+    "mandatory": true,
+    "note": ""
+   },
+   {
+    "type": "SKI_BPOM",
+    "sequence": 70,
+    "mandatory": true,
+    "note": ""
+   },
+   {
+    "type": "LABEL_ID",
+    "sequence": 80,
+    "mandatory": true,
+    "note": ""
+   }
+  ]
+ },
+ {
+  "code": "T_PROCESSED_NH",
+  "name": "Pangan olahan impor (non-halal)",
+  "food_group": "ml",
+  "sequence": 95,
+  "description": "Pangan olahan yang mengandung bahan non-halal.",
+  "lines": [
+   {
+    "type": "NIB_API",
+    "sequence": 10,
+    "mandatory": true,
+    "note": ""
+   },
+   {
+    "type": "LARTAS_CHECK",
+    "sequence": 20,
+    "mandatory": true,
+    "note": ""
+   },
+   {
+    "type": "CUSTOMS_PIB",
+    "sequence": 30,
+    "mandatory": true,
+    "note": ""
+   },
+   {
+    "type": "COO",
+    "sequence": 40,
+    "mandatory": false,
+    "note": ""
+   },
+   {
+    "type": "ML_BPOM",
+    "sequence": 50,
+    "mandatory": true,
+    "note": ""
+   },
+   {
+    "type": "NONHALAL",
+    "sequence": 60,
+    "mandatory": true,
+    "note": ""
+   },
+   {
+    "type": "SKI_BPOM",
+    "sequence": 70,
+    "mandatory": true,
+    "note": ""
+   },
+   {
+    "type": "LABEL_ID",
+    "sequence": 80,
+    "mandatory": true,
+    "note": ""
+   }
+  ]
+ },
+ {
+  "code": "T_NONFOOD",
+  "name": "Kemasan & non-pangan impor",
+  "food_group": "non_food",
+  "sequence": 100,
+  "description": "Kemasan dan barang non-pangan.",
+  "lines": [
+   {
+    "type": "NIB_API",
+    "sequence": 10,
+    "mandatory": true,
+    "note": ""
+   },
+   {
+    "type": "LARTAS_CHECK",
+    "sequence": 20,
+    "mandatory": true,
+    "note": ""
+   },
+   {
+    "type": "CUSTOMS_PIB",
+    "sequence": 30,
+    "mandatory": true,
+    "note": ""
+   },
+   {
+    "type": "COO",
+    "sequence": 40,
+    "mandatory": false,
+    "note": ""
+   }
+  ]
+ },
+ {
+  "code": "T_LOCAL_PSAH",
+  "name": "Daging & unggas lokal (PSAH)",
+  "food_group": "psah",
+  "sequence": 110,
+  "description": "Daging, jeroan dan unggas dari pemasok Indonesia.",
+  "lines": [
+   {
+    "type": "LOCAL_SUPPLIER",
+    "sequence": 10,
+    "mandatory": true,
+    "note": ""
+   },
+   {
+    "type": "NKV",
+    "sequence": 20,
+    "mandatory": true,
+    "note": ""
+   },
+   {
+    "type": "HALAL_SH",
+    "sequence": 30,
+    "mandatory": false,
+    "note": ""
+   }
+  ]
+ },
+ {
+  "code": "T_LOCAL_PSAI",
+  "name": "Ikan & seafood lokal (PSAI)",
+  "food_group": "psai",
+  "sequence": 111,
+  "description": "Ikan, krustasea dan moluska dari pemasok Indonesia.",
+  "lines": [
+   {
+    "type": "LOCAL_SUPPLIER",
+    "sequence": 10,
+    "mandatory": true,
+    "note": ""
+   }
+  ]
+ },
+ {
+  "code": "T_LOCAL_PSAT",
+  "name": "Sayur & buah lokal (PSAT)",
+  "food_group": "psat",
+  "sequence": 112,
+  "description": "Sayur dan buah dari pemasok Indonesia.",
+  "lines": [
+   {
+    "type": "LOCAL_SUPPLIER",
+    "sequence": 10,
+    "mandatory": true,
+    "note": ""
+   },
+   {
+    "type": "PSAT",
+    "sequence": 20,
+    "mandatory": false,
+    "note": ""
+   }
+  ]
+ },
+ {
+  "code": "T_LOCAL_MD",
+  "name": "Pangan olahan dalam negeri (BPOM MD)",
+  "food_group": "md",
+  "sequence": 113,
+  "description": "Pangan olahan produksi Indonesia, termasuk produk bermerek sendiri.",
+  "lines": [
+   {
+    "type": "MD_BPOM",
+    "sequence": 10,
+    "mandatory": true,
+    "note": ""
+   },
+   {
+    "type": "LOCAL_SUPPLIER",
+    "sequence": 20,
+    "mandatory": true,
+    "note": ""
+   },
+   {
+    "type": "HALAL_SH",
+    "sequence": 30,
+    "mandatory": false,
+    "note": ""
+   }
+  ]
+ },
+ {
+  "code": "T_LOCAL_NONFOOD",
+  "name": "Kemasan & non-pangan lokal",
+  "food_group": "non_food",
+  "sequence": 114,
+  "description": "Kemasan dan barang non-pangan lokal.",
+  "lines": [
+   {
+    "type": "LOCAL_SUPPLIER",
+    "sequence": 10,
+    "mandatory": false,
+    "note": ""
+   }
+  ]
+ }
+]
